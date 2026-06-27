@@ -1,0 +1,51 @@
+# -----------------------
+# NORMALIZACIÓN GENERAL
+# -----------------------
+* text=auto eol=lf
+
+# -----------------------
+# C# y código
+# -----------------------
+*.cs       text diff=csharp eol=lf
+*.shader   text eol=lf
+*.cginc    text eol=lf
+*.json     text eol=lf
+*.xml      text eol=lf
+*.yaml     text eol=lf
+*.yml      text eol=lf
+*.asmdef   text eol=lf
+*.txt      text eol=lf
+
+# -----------------------
+# UNITY
+# -----------------------
+*.unity      text eol=lf
+*.prefab     text eol=lf
+*.asset      text eol=lf
+*.mat        text eol=lf
+*.anim       text eol=lf
+*.controller text eol=lf
+*.meta       text eol=lf
+
+# -----------------------
+# BINARIOS
+# -----------------------
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.bmp   binary
+*.psd   binary
+
+*.fbx   binary
+*.blend binary
+
+*.mp3   binary
+*.wav   binary
+*.ogg   binary
+
+*.ttf   binary
+*.otf   binary
+
+*.exe   binary
+*.dll   binary
