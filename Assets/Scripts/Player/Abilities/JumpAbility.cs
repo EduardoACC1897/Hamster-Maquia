@@ -6,13 +6,13 @@ public class JumpAbility : PlayerAbility
 
     [Header("Jump")]
 
-    [SerializeField] private float jumpForce = 16f;
+    [SerializeField] private float jumpForce = 18f;
 
     [Header("Game Feel")]
 
-    [SerializeField] private float jumpBufferTime = 0.2f;
+    [SerializeField] private float jumpBufferTime = 0.1f;
 
-    [SerializeField] private float coyoteTime = 0.2f;
+    [SerializeField] private float coyoteTime = 0.1f;
 
     [SerializeField]
     [Range(0f, 1f)]
@@ -41,6 +41,18 @@ public class JumpAbility : PlayerAbility
 
     public override void OnCustomFixedUpdate()
     {
+        if (controller.IsCrouching)
+        {
+            jumpBufferCounter = 0f;
+            return;
+        }
+
+        if (controller.IsDropping)
+        {
+            jumpBufferCounter = 0f;
+            return;
+        }
+
         if (jumpBufferCounter > 0f &&
             coyoteCounter > 0f)
         {

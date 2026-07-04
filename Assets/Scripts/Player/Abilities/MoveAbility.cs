@@ -24,6 +24,12 @@ public class MoveAbility : PlayerAbility
 
     public override void OnCustomFixedUpdate()
     {
+        if (controller.IsCrouching)
+        {
+            controller.HorizontalVelocity = 0f;
+            return;
+        }
+
         float currentSpeed = controller.HorizontalVelocity;
         float targetSpeed = input.MoveX * maxGroundSpeed;
 

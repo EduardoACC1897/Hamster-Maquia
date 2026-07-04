@@ -37,6 +37,10 @@ public class PlayerController : MonoBehaviour
 
     public Vector2 TargetVelocity { get; set; }
 
+    public bool IsCrouching { get; set; }
+
+    public bool IsDropping { get; set; }
+
     #endregion
 
     #region Public Properties
