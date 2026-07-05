@@ -8,6 +8,7 @@ public class PlayerInputHandler : MonoBehaviour
     // Referencias directas a las acciones
     private InputAction moveAction;
     private InputAction jumpAction;
+    private InputAction attackAction;
 
     private bool inputEnabled = true;
 
@@ -31,12 +32,23 @@ public class PlayerInputHandler : MonoBehaviour
 
     #endregion
 
+    #region Attack
+
+    public bool AttackPressed { get; private set; }
+
+    public bool AttackHeld { get; private set; }
+
+    public bool AttackReleased { get; private set; }
+
+    #endregion
+
     private void Awake()
     {
         inputActions = new PlayerInputActions();
 
         moveAction = inputActions.Player.Move;
         jumpAction = inputActions.Player.Jump;
+        attackAction = inputActions.Player.Attack;
     }
 
     private void OnEnable()
@@ -62,6 +74,10 @@ public class PlayerInputHandler : MonoBehaviour
         JumpPressed = jumpAction.WasPressedThisFrame();
         JumpHeld = jumpAction.IsPressed();
         JumpReleased = jumpAction.WasReleasedThisFrame();
+
+        AttackPressed = attackAction.WasPressedThisFrame();
+        AttackHeld = attackAction.IsPressed();
+        AttackReleased = attackAction.WasReleasedThisFrame();
 
 #if UNITY_EDITOR
         DebugInputs();
@@ -91,6 +107,10 @@ public class PlayerInputHandler : MonoBehaviour
         JumpPressed = false;
         JumpHeld = false;
         JumpReleased = false;
+
+        AttackPressed = false;
+        AttackHeld = false;
+        AttackReleased = false;
     }
 
 #if UNITY_EDITOR
@@ -110,6 +130,11 @@ public class PlayerInputHandler : MonoBehaviour
         if (Mathf.Abs(MoveY) > 0.01f)
         {
             Debug.Log($"Move Y: {MoveY}");
+        }
+
+        if (AttackPressed)
+        {
+            Debug.Log("Attack");
         }
     }
 

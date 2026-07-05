@@ -41,6 +41,10 @@ public class PlayerController : MonoBehaviour
 
     public bool IsDropping { get; set; }
 
+    public bool IsAttacking { get; set; }
+
+    public bool IsGravityPaused { get; set; }
+
     #endregion
 
     #region Public Properties
@@ -116,10 +120,22 @@ public class PlayerController : MonoBehaviour
             groundCheckRadius,
             groundLayer
         );
+
+        if (IsGrounded)
+        {
+            IsGravityPaused = false;
+        }
     }
 
     private void ApplyGravity()
     {
+        if (IsGravityPaused)
+        {
+            rb.gravityScale = 0f;
+            VerticalVelocity = 0f;
+            return;
+        }
+
         if (VerticalVelocity > jumpApexThreshold)
         {
             rb.gravityScale = gravityScale;
