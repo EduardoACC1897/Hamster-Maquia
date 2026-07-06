@@ -15,11 +15,12 @@ public class Frambuesa : Enemy
     [SerializeField] private float tiempoEntreAtaques = 2f; //cadencia
 
     private bool estaAtacando = false;
+    [SerializeField] private Animator bodyAnimator;
 
     protected override void Start()
     {
         base.Start();
-        
+
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
@@ -57,7 +58,9 @@ public class Frambuesa : Enemy
 
     private IEnumerator Viaje(Vector2 destino)
     {
-        while(Vector2.Distance(transform.position, destino) > 0.1f)
+        MirarHacia(destino);
+
+        while (Vector2.Distance(transform.position, destino) > 0.1f)
         {
             Vector2 newPosition = Vector2.MoveTowards(transform.position, destino, moveSpeed * Time.deltaTime);
             rb.MovePosition(newPosition);
@@ -78,6 +81,7 @@ public class Frambuesa : Enemy
         {
             if (isPlayerNearby && playerTransform != null)
             {
+                bodyAnimator.SetTrigger("Attack");
                 DispararSemilla();
             }
             
@@ -111,5 +115,12 @@ public class Frambuesa : Enemy
             Gizmos.DrawWireSphere(puntoA.position, 0.3f);
             Gizmos.DrawWireSphere(puntoB.position, 0.3f);
         }
+    }
+    protected void MirarHacia(Vector2 destino)
+    {
+        if (destino.x > transform.position.x)
+            transform.localScale = new Vector3(1, 1, 1);
+        else
+            transform.localScale = new Vector3(-1, 1, 1);
     }
 }
