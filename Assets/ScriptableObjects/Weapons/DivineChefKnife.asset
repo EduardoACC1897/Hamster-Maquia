@@ -26,6 +26,6 @@ MonoBehaviour:
   attackFriction: 0.9
   airAttackRange: 1.6
   airBounceForce: 16
-  singleAirHitPerJump: 1
+  singleAirHitPerJump: 0
   spinRotations: 1
   attackPunchScale: {x: 0.5, y: -0.3, z: 0}
