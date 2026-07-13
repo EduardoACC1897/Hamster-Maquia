@@ -50,6 +50,18 @@ public class CrouchAbility : PlayerAbility
             return;
         }
 
+        if (controller.IsHurt)
+        {
+            ExitCrouch();
+            return;
+        }
+
+        if (controller.IsDead)
+        {
+            ExitCrouch();
+            return;
+        }
+
         if (controller.IsDropping)
         {
             ExitCrouch();

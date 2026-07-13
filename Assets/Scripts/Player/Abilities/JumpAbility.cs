@@ -48,6 +48,18 @@ public class JumpAbility : PlayerAbility
             return;
         }
 
+        if (controller.IsHurt)
+        {
+            jumpBufferCounter = 0f;
+            return;
+        }
+
+        if (controller.IsDead)
+        {
+            jumpBufferCounter = 0f;
+            return;
+        }
+
         if (controller.IsCrouching)
         {
             jumpBufferCounter = 0f;

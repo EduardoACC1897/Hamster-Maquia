@@ -143,6 +143,8 @@ GameObject:
   - component: {fileID: 6858759386778382426}
   - component: {fileID: 2373963288334261369}
   - component: {fileID: 5213041163833890784}
+  - component: {fileID: 517127088244817630}
+  - component: {fileID: 1033761352458118282}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -366,7 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa3d3ea5b7f95243b087a3f70938140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeaponManager
-  defaultWeapon: {fileID: 11400000, guid: 4a11d26c74d71714ab56b5ddaa204002, type: 2}
+  defaultWeapon: {fileID: 11400000, guid: b765243fa4440c64bb2f5fac115476ab, type: 2}
 --- !u!114 &5213041163833890784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,6 +387,41 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   airAttackOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &517127088244817630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254897287952704112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c7b0ffd2304784493fe5f359f036e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 3
+  startingLives: 3
+  knockbackForce: {x: 8, y: 10}
+  hurtDuration: 0.25
+  invulnerabilityTime: 3
+  visual: {fileID: 2225302968473184425}
+  deathJumpHeight: 1.5
+  deathJumpDuration: 0.3
+  deathFallDistance: 4
+  deathFallDuration: 0.45
+--- !u!114 &1033761352458118282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254897287952704112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74145a558a1f673459de7f904ff2abc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
+  initialSpawnPoint: {fileID: 0}
 --- !u!1 &7052848076182712280
 GameObject:
   m_ObjectHideFlags: 0

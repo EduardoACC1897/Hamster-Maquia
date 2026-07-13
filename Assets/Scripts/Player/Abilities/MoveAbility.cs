@@ -31,6 +31,17 @@ public class MoveAbility : PlayerAbility
             return;
         }
 
+        if (controller.IsHurt)
+        {
+            return;
+        }
+
+        if (controller.IsDead)
+        {
+            controller.HorizontalVelocity = 0f;
+            return;
+        }
+
         if (controller.IsCrouching)
         {
             controller.HorizontalVelocity = 0f;
