@@ -24,6 +24,13 @@ public class MoveAbility : PlayerAbility
 
     public override void OnCustomFixedUpdate()
     {
+        if (controller.IsAttacking &&
+            controller.IsGrounded)
+        {
+            controller.HorizontalVelocity = 0f;
+            return;
+        }
+
         if (controller.IsCrouching)
         {
             controller.HorizontalVelocity = 0f;

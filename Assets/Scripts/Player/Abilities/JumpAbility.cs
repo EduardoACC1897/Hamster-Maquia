@@ -41,6 +41,13 @@ public class JumpAbility : PlayerAbility
 
     public override void OnCustomFixedUpdate()
     {
+        if (controller.IsAttacking &&
+            controller.IsGrounded)
+        {
+            jumpBufferCounter = 0f;
+            return;
+        }
+
         if (controller.IsCrouching)
         {
             jumpBufferCounter = 0f;
