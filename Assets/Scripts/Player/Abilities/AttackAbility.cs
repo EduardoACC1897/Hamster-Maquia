@@ -48,6 +48,12 @@ public class AttackAbility : PlayerAbility
             airAttackUsed = false;
         }
 
+        if (controller.IsHurt)
+            return;
+
+        if (controller.IsDead)
+            return;
+
         if (!canAttack)
             return;
 
@@ -229,7 +235,7 @@ public class AttackAbility : PlayerAbility
             if (hit.TryGetComponent<IDamageable>(
                 out IDamageable damageable))
             {
-                damageable.TakeDamage();
+                damageable.TakeDamage(1);
 
                 hitSomething = true;
             }

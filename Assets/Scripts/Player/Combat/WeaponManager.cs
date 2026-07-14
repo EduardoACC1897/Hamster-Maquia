@@ -43,7 +43,7 @@ public class WeaponManager : MonoBehaviour
 
     private void Awake()
     {
-        EquipWeapon(defaultWeapon);
+        LoadSavedWeapon();
     }
 
     #endregion
@@ -55,16 +55,16 @@ public class WeaponManager : MonoBehaviour
         if (weapon == null)
             return;
 
-        currentWeapon = weapon;
+        EquipWeapon(
+            weapon,
+            weapon.InfiniteUses
+                ? -1
+                : weapon.MaxUses);
 
-        if (weapon.InfiniteUses)
-        {
-            remainingUses = -1;
-        }
-        else
-        {
-            remainingUses = weapon.MaxUses;
-        }
+        if (weapon == defaultWeapon)
+            return;
+
+        SaveCurrentWeapon();
     }
 
     public void ConsumeOneUse()
@@ -79,13 +79,62 @@ public class WeaponManager : MonoBehaviour
 
         if (remainingUses <= 0)
         {
-            EquipDefaultWeapon();
+            RemoveCurrentWeapon();
+        }
+        else
+        {
+            SaveCurrentWeapon();
         }
     }
 
-    public void EquipDefaultWeapon()
+    private void RemoveCurrentWeapon()
     {
         EquipWeapon(defaultWeapon);
+
+        PlayerDataManager.Instance?.ClearWeapon();
+    }
+
+    private void EquipWeapon(
+        WeaponData weapon,
+        int uses)
+    {
+        if (weapon == null)
+            return;
+
+        currentWeapon = weapon;
+        remainingUses = uses;
+    }
+
+    private void SaveCurrentWeapon()
+    {
+        if (PlayerDataManager.Instance == null)
+            return;
+
+        PlayerDataManager.Instance.SetWeapon(
+            currentWeapon,
+            remainingUses);
+    }
+
+    private void LoadSavedWeapon()
+    {
+        if (PlayerDataManager.Instance == null)
+        {
+            EquipWeapon(defaultWeapon);
+            return;
+        }
+
+        WeaponData weapon =
+            PlayerDataManager.Instance.EquippedWeapon;
+
+        if (weapon == null)
+        {
+            EquipWeapon(defaultWeapon);
+            return;
+        }
+
+        EquipWeapon(
+            weapon,
+            PlayerDataManager.Instance.RemainingWeaponUses);
     }
 
     #endregion

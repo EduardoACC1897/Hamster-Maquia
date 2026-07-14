@@ -43,6 +43,25 @@ public class CrouchAbility : PlayerAbility
 
     public override void OnCustomFixedUpdate()
     {
+        if (controller.IsAttacking &&
+            controller.IsGrounded)
+        {
+            ExitCrouch();
+            return;
+        }
+
+        if (controller.IsHurt)
+        {
+            ExitCrouch();
+            return;
+        }
+
+        if (controller.IsDead)
+        {
+            ExitCrouch();
+            return;
+        }
+
         if (controller.IsDropping)
         {
             ExitCrouch();

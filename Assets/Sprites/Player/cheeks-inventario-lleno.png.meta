@@ -1,0 +1,2647 @@
+fileFormatVersion: 2
+guid: b42e718ee602adc438911100f17a67ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -126334222208398972
+    second: cheeks-inventario-lleno_0
+  - first:
+      213: -2026289453815365150
+    second: cheeks-inventario-lleno_1
+  - first:
+      213: 9031808796216500713
+    second: cheeks-inventario-lleno_2
+  - first:
+      213: 8148352076923860778
+    second: cheeks-inventario-lleno_3
+  - first:
+      213: -4051750365780377372
+    second: cheeks-inventario-lleno_4
+  - first:
+      213: 5044769652008486351
+    second: cheeks-inventario-lleno_5
+  - first:
+      213: 4386168227678499266
+    second: cheeks-inventario-lleno_6
+  - first:
+      213: 2002796253854448594
+    second: cheeks-inventario-lleno_7
+  - first:
+      213: 2189995533922820085
+    second: cheeks-inventario-lleno_8
+  - first:
+      213: -5565508994686398346
+    second: cheeks-inventario-lleno_9
+  - first:
+      213: 1243061082201545543
+    second: cheeks-inventario-lleno_10
+  - first:
+      213: 8951335093605538452
+    second: cheeks-inventario-lleno_11
+  - first:
+      213: 4180453938179666508
+    second: cheeks-inventario-lleno_12
+  - first:
+      213: 5448209795826840532
+    second: cheeks-inventario-lleno_13
+  - first:
+      213: 7494190544109589106
+    second: cheeks-inventario-lleno_14
+  - first:
+      213: 404814358573839775
+    second: cheeks-inventario-lleno_15
+  - first:
+      213: 1161710001497971132
+    second: cheeks-inventario-lleno_16
+  - first:
+      213: 8157960227724787080
+    second: cheeks-inventario-lleno_17
+  - first:
+      213: -1637742629841391239
+    second: cheeks-inventario-lleno_18
+  - first:
+      213: -4277623333713536024
+    second: cheeks-inventario-lleno_19
+  - first:
+      213: -857372710998739683
+    second: cheeks-inventario-lleno_20
+  - first:
+      213: 8668268647021926731
+    second: cheeks-inventario-lleno_21
+  - first:
+      213: 9217380622524486156
+    second: cheeks-inventario-lleno_22
+  - first:
+      213: -1529756306459293849
+    second: cheeks-inventario-lleno_23
+  - first:
+      213: -8422790644129842869
+    second: cheeks-inventario-lleno_24
+  - first:
+      213: -5039487061440466061
+    second: cheeks-inventario-lleno_25
+  - first:
+      213: 2807656694409078922
+    second: cheeks-inventario-lleno_26
+  - first:
+      213: -3937142954637590901
+    second: cheeks-inventario-lleno_27
+  - first:
+      213: -8876111503941638782
+    second: cheeks-inventario-lleno_28
+  - first:
+      213: 7248596977573309796
+    second: cheeks-inventario-lleno_29
+  - first:
+      213: -3143083618496624039
+    second: cheeks-inventario-lleno_30
+  - first:
+      213: 576849833812912559
+    second: cheeks-inventario-lleno_31
+  - first:
+      213: -8676245509053677317
+    second: cheeks-inventario-lleno_32
+  - first:
+      213: -1822220632804658918
+    second: cheeks-inventario-lleno_33
+  - first:
+      213: 2415331620304963817
+    second: cheeks-inventario-lleno_34
+  - first:
+      213: 7634176068655913237
+    second: cheeks-inventario-lleno_35
+  - first:
+      213: -5985056709682045527
+    second: cheeks-inventario-lleno_36
+  - first:
+      213: 983501336352962673
+    second: cheeks-inventario-lleno_37
+  - first:
+      213: 3402894734715545584
+    second: cheeks-inventario-lleno_38
+  - first:
+      213: 4071954053465305534
+    second: cheeks-inventario-lleno_39
+  - first:
+      213: 6809509717624202545
+    second: cheeks-inventario-lleno_40
+  - first:
+      213: -1379160528628938521
+    second: cheeks-inventario-lleno_41
+  - first:
+      213: -8380608055733085240
+    second: cheeks-inventario-lleno_42
+  - first:
+      213: -3808534929009400896
+    second: cheeks-inventario-lleno_43
+  - first:
+      213: 1301192125464146546
+    second: cheeks-inventario-lleno_44
+  - first:
+      213: 1079477989575704341
+    second: cheeks-inventario-lleno_45
+  - first:
+      213: 1883811887788294618
+    second: cheeks-inventario-lleno_46
+  - first:
+      213: 8008929049310417634
+    second: cheeks-inventario-lleno_47
+  - first:
+      213: 636103165805118328
+    second: cheeks-inventario-lleno_48
+  - first:
+      213: 5294111786534541737
+    second: cheeks-inventario-lleno_49
+  - first:
+      213: -7256396212966511553
+    second: cheeks-inventario-lleno_50
+  - first:
+      213: 6684932594533319164
+    second: cheeks-inventario-lleno_51
+  - first:
+      213: 4692249958804750358
+    second: cheeks-inventario-lleno_52
+  - first:
+      213: 3849046784563325658
+    second: cheeks-inventario-lleno_53
+  - first:
+      213: -3781675084072074091
+    second: cheeks-inventario-lleno_54
+  - first:
+      213: -4957178681800097229
+    second: cheeks-inventario-lleno_55
+  - first:
+      213: -8720987965427474088
+    second: cheeks-inventario-lleno_56
+  - first:
+      213: -6277995619087115799
+    second: cheeks-inventario-lleno_57
+  - first:
+      213: -2626278685771660475
+    second: cheeks-inventario-lleno_58
+  - first:
+      213: 7425783085096466184
+    second: cheeks-inventario-lleno_59
+  - first:
+      213: -728548537857942832
+    second: cheeks-inventario-lleno_60
+  - first:
+      213: 4614376077485632807
+    second: cheeks-inventario-lleno_61
+  - first:
+      213: 7949664577569055997
+    second: cheeks-inventario-lleno_62
+  - first:
+      213: 2610178891292955738
+    second: cheeks-inventario-lleno_63
+  - first:
+      213: -2284459582721801867
+    second: cheeks-inventario-lleno_64
+  - first:
+      213: -7980855115865805358
+    second: cheeks-inventario-lleno_65
+  - first:
+      213: 552494437012323187
+    second: cheeks-inventario-lleno_66
+  - first:
+      213: -2503375209957556028
+    second: cheeks-inventario-lleno_67
+  - first:
+      213: -1707952959212813618
+    second: cheeks-inventario-lleno_68
+  - first:
+      213: -1540968846860414392
+    second: cheeks-inventario-lleno_69
+  - first:
+      213: -2266926722349915015
+    second: cheeks-inventario-lleno_70
+  - first:
+      213: 1313484232878298630
+    second: cheeks-inventario-lleno_71
+  - first:
+      213: 7172826898621723299
+    second: cheeks-inventario-lleno_72
+  - first:
+      213: -4584543178182220182
+    second: cheeks-inventario-lleno_73
+  - first:
+      213: -6389509961155650310
+    second: cheeks-inventario-lleno_74
+  - first:
+      213: -8223661270584175931
+    second: cheeks-inventario-lleno_75
+  - first:
+      213: 2271562288729168238
+    second: cheeks-inventario-lleno_76
+  - first:
+      213: -6136920209994791599
+    second: cheeks-inventario-lleno_77
+  - first:
+      213: 5895302372022756423
+    second: cheeks-inventario-lleno_78
+  - first:
+      213: 2942476292104747739
+    second: cheeks-inventario-lleno_79
+  - first:
+      213: -8681051316740869334
+    second: cheeks-inventario-lleno_80
+  - first:
+      213: 1245219049928328115
+    second: cheeks-inventario-lleno_81
+  - first:
+      213: -8590581077329120654
+    second: cheeks-inventario-lleno_82
+  - first:
+      213: 8822028376927742451
+    second: cheeks-inventario-lleno_83
+  - first:
+      213: -4839412538787313094
+    second: cheeks-inventario-lleno_84
+  - first:
+      213: 9030337359264439600
+    second: cheeks-inventario-lleno_85
+  - first:
+      213: -7177852572021263577
+    second: cheeks-inventario-lleno_86
+  - first:
+      213: 2575925100789899956
+    second: cheeks-inventario-lleno_87
+  - first:
+      213: -2345311863444894289
+    second: cheeks-inventario-lleno_88
+  - first:
+      213: 9143244504976109036
+    second: cheeks-inventario-lleno_89
+  - first:
+      213: -5443071095635586922
+    second: cheeks-inventario-lleno_90
+  - first:
+      213: 7635491183460461769
+    second: cheeks-inventario-lleno_91
+  - first:
+      213: -105222968876379928
+    second: cheeks-inventario-lleno_92
+  - first:
+      213: -7395292006822719605
+    second: cheeks-inventario-lleno_93
+  - first:
+      213: -6318565436263346560
+    second: cheeks-inventario-lleno_94
+  - first:
+      213: -3155539697448012620
+    second: cheeks-inventario-lleno_95
+  - first:
+      213: -8342819237345976034
+    second: cheeks-inventario-lleno_96
+  - first:
+      213: -719795231604190905
+    second: cheeks-inventario-lleno_97
+  - first:
+      213: 1098104286862557858
+    second: cheeks-inventario-lleno_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4890b4ab1bb2f3ef0800000000000000
+      internalID: -126334222208398972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1073d3a7c21e3e0800000000000000
+      internalID: -2026289453815365150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1abb16f3e675d70800000000000000
+      internalID: 9031808796216500713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27fcd9ca03c41170800000000000000
+      internalID: 8148352076923860778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e00a19628a45c7c0800000000000000
+      internalID: -4051750365780377372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc503a9254f920640800000000000000
+      internalID: 5044769652008486351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1b1ef93cccedc30800000000000000
+      internalID: 4386168227678499266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db3a74e49c5bcb10800000000000000
+      internalID: 2002796253854448594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff5923c55d646e10800000000000000
+      internalID: 2189995533922820085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670d9718e0753c2b0800000000000000
+      internalID: -5565508994686398346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b5cbed77d304110800000000000000
+      internalID: 1243061082201545543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a98d767d7893c70800000000000000
+      internalID: 8951335093605538452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42f41135b4f30a30800000000000000
+      internalID: 4180453938179666508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3ff0681fdeb9b40800000000000000
+      internalID: 5448209795826840532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2725ebc0896b00860800000000000000
+      internalID: 7494190544109589106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9575caa3803e9500800000000000000
+      internalID: 404814358573839775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb91e4367193f1010800000000000000
+      internalID: 1161710001497971132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88dfc49ba95e63170800000000000000
+      internalID: 8157960227724787080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9713aca51c19549e0800000000000000
+      internalID: -1637742629841391239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb1517ed34d2a4c0800000000000000
+      internalID: -4277623333713536024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d157ec8df000a14f0800000000000000
+      internalID: -857372710998739683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49d5637860eb4870800000000000000
+      internalID: 8668268647021926731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02142527d6baef70800000000000000
+      internalID: 9217380622524486156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76784988eb635cae0800000000000000
+      internalID: -1529756306459293849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b493827f88c3c1b80800000000000000
+      internalID: -8422790644129842869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373f9acc735201ab0800000000000000
+      internalID: -5039487061440466061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88208153ecc6f620800000000000000
+      internalID: 2807656694409078922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ef4e6b7557c59c0800000000000000
+      internalID: -3937142954637590901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285ecc46d97b1d480800000000000000
+      internalID: -8876111503941638782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d2a30eb80389460800000000000000
+      internalID: 7248596977573309796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ac82c0a168164d0800000000000000
+      internalID: -3143083618496624039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa969291ed1610800800000000000000
+      internalID: 576849833812912559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf007c0ada8c79780800000000000000
+      internalID: -8676245509053677317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a117a4f2dfb26b6e0800000000000000
+      internalID: -1822220632804658918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8cb0bcf4bf48120800000000000000
+      internalID: 2415331620304963817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5191605dfaa02f960800000000000000
+      internalID: 7634176068655913237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad55daf1aec0fca0800000000000000
+      internalID: -5985056709682045527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178b07d214916ad00800000000000000
+      internalID: 983501336352962673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f764ce5bb2893f20800000000000000
+      internalID: 3402894734715545584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1f28233ac728830800000000000000
+      internalID: 4071954053465305534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135af85820d308e50800000000000000
+      internalID: 6809509717624202545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e805da6ecc3cdce0800000000000000
+      internalID: -1379160528628938521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb904c206912bb80800000000000000
+      internalID: -8380608055733085240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c32ab919ad552bc0800000000000000
+      internalID: -3808534929009400896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27273d61853ce0210800000000000000
+      internalID: 1301192125464146546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f338f13831bfe00800000000000000
+      internalID: 1079477989575704341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1874b5ee4a42a10800000000000000
+      internalID: 1883811887788294618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e25477898e652f60800000000000000
+      internalID: 8008929049310417634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873c0568574e3d800800000000000000
+      internalID: 636103165805118328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a99995de96787940800000000000000
+      internalID: 5294111786534541737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c24a0271a1c4b90800000000000000
+      internalID: -7256396212966511553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1c694c6c6a5cc50800000000000000
+      internalID: 6684932594533319164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61006e71a783e1140800000000000000
+      internalID: 4692249958804750358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaa1cd48af8a6530800000000000000
+      internalID: 3849046784563325658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59440f51c8ac48bc0800000000000000
+      internalID: -3781675084072074091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3328a2fc040943bb0800000000000000
+      internalID: -4957178681800097229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8512d36b6a3d8f680800000000000000
+      internalID: -8720987965427474088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e99ad62f3410e8a0800000000000000
+      internalID: -6277995619087115799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_58
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543866d23759d8bd0800000000000000
+      internalID: -2626278685771660475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80777465f5ead0760800000000000000
+      internalID: 7425783085096466184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dad85ff6fca3e5f0800000000000000
+      internalID: -728548537857942832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d679e289e890040800000000000000
+      internalID: 4614376077485632807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4628d60d1e25e60800000000000000
+      internalID: 7949664577569055997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a545dbf4fd7393420800000000000000
+      internalID: 2610178891292955738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5714124fc18fb40e0800000000000000
+      internalID: -2284459582721801867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dda5f67e8e4e3190800000000000000
+      internalID: -7980855115865805358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bbf7263cadaa700800000000000000
+      internalID: 552494437012323187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c006fe8289324dd0800000000000000
+      internalID: -2503375209957556028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec20b0d25d12c48e0800000000000000
+      internalID: -1707952959212813618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84211f88ff06d9ae0800000000000000
+      internalID: -1540968846860414392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9742e7e18224a80e0800000000000000
+      internalID: -2266926722349915015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60699ce53fe6a3210800000000000000
+      internalID: 1313484232878298630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_72
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2f6bf9f000b8360800000000000000
+      internalID: 7172826898621723299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a662207f44e6060c0800000000000000
+      internalID: -4584543178182220182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc5f7c1b86e357a0800000000000000
+      internalID: -6389509961155650310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_75
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c251bd25afafdd80800000000000000
+      internalID: -8223661270584175931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6910e8cdd5368f10800000000000000
+      internalID: 2271562288729168238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1554854759745daa0800000000000000
+      internalID: -6136920209994791599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_78
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7442fefc54250d150800000000000000
+      internalID: 5895302372022756423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda79e60996c5d820800000000000000
+      internalID: 2942476292104747739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2339b452d5b68780800000000000000
+      internalID: -8681051316740869334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b30782e028e74110800000000000000
+      internalID: 1245219049928328115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272fa97660028c880800000000000000
+      internalID: -8590581077329120654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a13551142e6a70800000000000000
+      internalID: 8822028376927742451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ac200bfe3f6dcb0800000000000000
+      internalID: -4839412538787313094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d55e4cbf3325d70800000000000000
+      internalID: 9030337359264439600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7237c8a9d15236c90800000000000000
+      internalID: -7177852572021263577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b228983b368fb320800000000000000
+      internalID: 2575925100789899956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad8bd34947c37fd0800000000000000
+      internalID: -2345311863444894289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceda4ad2f6453ee70800000000000000
+      internalID: 9143244504976109036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_90
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690d1795da35674b0800000000000000
+      internalID: -5443071095635586922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cca9cbd6c6b6f960800000000000000
+      internalID: 7635491183460461769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e059ed644c2a8ef0800000000000000
+      internalID: -105222968876379928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fcb0b0a15ae5990800000000000000
+      internalID: -7395292006822719605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_94
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e46718632ff48a0800000000000000
+      internalID: -6318565436263346560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_95
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4b7fa2d554534d0800000000000000
+      internalID: -3155539697448012620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheeks-inventario-lleno_96
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11a2b41b1a583c80800000000000000
+      internalID: -8342819237345976034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 87fd31534f041ab4e899760f41f9935a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      cheeks-inventario-lleno_0: -126334222208398972
+      cheeks-inventario-lleno_1: -2026289453815365150
+      cheeks-inventario-lleno_10: 1243061082201545543
+      cheeks-inventario-lleno_11: 8951335093605538452
+      cheeks-inventario-lleno_12: 4180453938179666508
+      cheeks-inventario-lleno_13: 5448209795826840532
+      cheeks-inventario-lleno_14: 7494190544109589106
+      cheeks-inventario-lleno_15: 404814358573839775
+      cheeks-inventario-lleno_16: 1161710001497971132
+      cheeks-inventario-lleno_17: 8157960227724787080
+      cheeks-inventario-lleno_18: -1637742629841391239
+      cheeks-inventario-lleno_19: -4277623333713536024
+      cheeks-inventario-lleno_2: 9031808796216500713
+      cheeks-inventario-lleno_20: -857372710998739683
+      cheeks-inventario-lleno_21: 8668268647021926731
+      cheeks-inventario-lleno_22: 9217380622524486156
+      cheeks-inventario-lleno_23: -1529756306459293849
+      cheeks-inventario-lleno_24: -8422790644129842869
+      cheeks-inventario-lleno_25: -5039487061440466061
+      cheeks-inventario-lleno_26: 2807656694409078922
+      cheeks-inventario-lleno_27: -3937142954637590901
+      cheeks-inventario-lleno_28: -8876111503941638782
+      cheeks-inventario-lleno_29: 7248596977573309796
+      cheeks-inventario-lleno_3: 8148352076923860778
+      cheeks-inventario-lleno_30: -3143083618496624039
+      cheeks-inventario-lleno_31: 576849833812912559
+      cheeks-inventario-lleno_32: -8676245509053677317
+      cheeks-inventario-lleno_33: -1822220632804658918
+      cheeks-inventario-lleno_34: 2415331620304963817
+      cheeks-inventario-lleno_35: 7634176068655913237
+      cheeks-inventario-lleno_36: -5985056709682045527
+      cheeks-inventario-lleno_37: 983501336352962673
+      cheeks-inventario-lleno_38: 3402894734715545584
+      cheeks-inventario-lleno_39: 4071954053465305534
+      cheeks-inventario-lleno_4: -4051750365780377372
+      cheeks-inventario-lleno_40: 6809509717624202545
+      cheeks-inventario-lleno_41: -1379160528628938521
+      cheeks-inventario-lleno_42: -8380608055733085240
+      cheeks-inventario-lleno_43: -3808534929009400896
+      cheeks-inventario-lleno_44: 1301192125464146546
+      cheeks-inventario-lleno_45: 1079477989575704341
+      cheeks-inventario-lleno_46: 1883811887788294618
+      cheeks-inventario-lleno_47: 8008929049310417634
+      cheeks-inventario-lleno_48: 636103165805118328
+      cheeks-inventario-lleno_49: 5294111786534541737
+      cheeks-inventario-lleno_5: 5044769652008486351
+      cheeks-inventario-lleno_50: -7256396212966511553
+      cheeks-inventario-lleno_51: 6684932594533319164
+      cheeks-inventario-lleno_52: 4692249958804750358
+      cheeks-inventario-lleno_53: 3849046784563325658
+      cheeks-inventario-lleno_54: -3781675084072074091
+      cheeks-inventario-lleno_55: -4957178681800097229
+      cheeks-inventario-lleno_56: -8720987965427474088
+      cheeks-inventario-lleno_57: -6277995619087115799
+      cheeks-inventario-lleno_58: -2626278685771660475
+      cheeks-inventario-lleno_59: 7425783085096466184
+      cheeks-inventario-lleno_6: 4386168227678499266
+      cheeks-inventario-lleno_60: -728548537857942832
+      cheeks-inventario-lleno_61: 4614376077485632807
+      cheeks-inventario-lleno_62: 7949664577569055997
+      cheeks-inventario-lleno_63: 2610178891292955738
+      cheeks-inventario-lleno_64: -2284459582721801867
+      cheeks-inventario-lleno_65: -7980855115865805358
+      cheeks-inventario-lleno_66: 552494437012323187
+      cheeks-inventario-lleno_67: -2503375209957556028
+      cheeks-inventario-lleno_68: -1707952959212813618
+      cheeks-inventario-lleno_69: -1540968846860414392
+      cheeks-inventario-lleno_7: 2002796253854448594
+      cheeks-inventario-lleno_70: -2266926722349915015
+      cheeks-inventario-lleno_71: 1313484232878298630
+      cheeks-inventario-lleno_72: 7172826898621723299
+      cheeks-inventario-lleno_73: -4584543178182220182
+      cheeks-inventario-lleno_74: -6389509961155650310
+      cheeks-inventario-lleno_75: -8223661270584175931
+      cheeks-inventario-lleno_76: 2271562288729168238
+      cheeks-inventario-lleno_77: -6136920209994791599
+      cheeks-inventario-lleno_78: 5895302372022756423
+      cheeks-inventario-lleno_79: 2942476292104747739
+      cheeks-inventario-lleno_8: 2189995533922820085
+      cheeks-inventario-lleno_80: -8681051316740869334
+      cheeks-inventario-lleno_81: 1245219049928328115
+      cheeks-inventario-lleno_82: -8590581077329120654
+      cheeks-inventario-lleno_83: 8822028376927742451
+      cheeks-inventario-lleno_84: -4839412538787313094
+      cheeks-inventario-lleno_85: 9030337359264439600
+      cheeks-inventario-lleno_86: -7177852572021263577
+      cheeks-inventario-lleno_87: 2575925100789899956
+      cheeks-inventario-lleno_88: -2345311863444894289
+      cheeks-inventario-lleno_89: 9143244504976109036
+      cheeks-inventario-lleno_9: -5565508994686398346
+      cheeks-inventario-lleno_90: -5443071095635586922
+      cheeks-inventario-lleno_91: 7635491183460461769
+      cheeks-inventario-lleno_92: -105222968876379928
+      cheeks-inventario-lleno_93: -7395292006822719605
+      cheeks-inventario-lleno_94: -6318565436263346560
+      cheeks-inventario-lleno_95: -3155539697448012620
+      cheeks-inventario-lleno_96: -8342819237345976034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
