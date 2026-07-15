@@ -7,8 +7,6 @@ public class AttackAbility : PlayerAbility
 
     [Header("References")]
 
-    [SerializeField] private Transform visualTransform;
-
     [SerializeField] private Transform attackPoint;
 
     [SerializeField] private LayerMask enemyLayer;

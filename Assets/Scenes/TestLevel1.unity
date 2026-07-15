@@ -734,11 +734,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1226824859 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2225302968473184425, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
-  m_PrefabInstance: {fileID: 5467482459112184387}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1694100857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,30 +1075,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 517127088244817630, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
-      propertyPath: visual
-      value: 
-      objectReference: {fileID: 1226824859}
-    - target: {fileID: 517127088244817630, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
-      propertyPath: deathFallDistance
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 517127088244817630, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
-      propertyPath: deathFallDuration
-      value: 0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 517127088244817630, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
-      propertyPath: invulnerabilityTime
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1033761352458118282, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
       propertyPath: initialSpawnPoint
       value: 
       objectReference: {fileID: 640258734}
-    - target: {fileID: 2373963288334261369, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
-      propertyPath: defaultWeapon
-      value: 
-      objectReference: {fileID: 11400000, guid: b765243fa4440c64bb2f5fac115476ab, type: 2}
     - target: {fileID: 4783851662103928880, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

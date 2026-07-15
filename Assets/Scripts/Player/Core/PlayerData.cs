@@ -6,4 +6,6 @@ public class PlayerData
     public WeaponData EquippedWeapon;
 
     public int RemainingWeaponUses;
+
+    public int RemainingLives = -1;
 }

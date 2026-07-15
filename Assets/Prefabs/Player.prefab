@@ -145,7 +145,8 @@ GameObject:
   - component: {fileID: 5213041163833890784}
   - component: {fileID: 517127088244817630}
   - component: {fileID: 1033761352458118282}
-  m_Layer: 0
+  - component: {fileID: 193852089553128716}
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -381,7 +382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb14ea77d9725e048994062fe268c8fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackAbility
-  visualTransform: {fileID: 2225302968473184425}
   attackPoint: {fileID: 4826890766569578489}
   enemyLayer:
     serializedVersion: 2
@@ -404,11 +404,6 @@ MonoBehaviour:
   knockbackForce: {x: 8, y: 10}
   hurtDuration: 0.25
   invulnerabilityTime: 3
-  visual: {fileID: 2225302968473184425}
-  deathJumpHeight: 1.5
-  deathJumpDuration: 0.3
-  deathFallDistance: 4
-  deathFallDuration: 0.45
 --- !u!114 &1033761352458118282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,6 +417,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
   initialSpawnPoint: {fileID: 0}
+--- !u!114 &193852089553128716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254897287952704112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365c732094036b444abeb5e39d33088c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimation
+  visual: {fileID: 2225302968473184425}
+  deathJumpHeight: 1.5
+  deathJumpDuration: 0.3
+  deathPauseDuration: 0.6
+  deathFallDistance: 8
+  deathFallDuration: 0.9
+  flashInterval: 0.1
 --- !u!1 &7052848076182712280
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,6 +22,9 @@ public class PlayerDataManager : MonoBehaviour
     public int RemainingWeaponUses =>
         playerData.RemainingWeaponUses;
 
+    public int RemainingLives =>
+        playerData.RemainingLives;
+
     #endregion
 
     #region Unity Messages
@@ -56,6 +59,11 @@ public class PlayerDataManager : MonoBehaviour
     {
         playerData.EquippedWeapon = null;
         playerData.RemainingWeaponUses = 0;
+    }
+
+    public void SetLives(int lives)
+    {
+        playerData.RemainingLives = lives;
     }
 
     public void ResetRun()
