@@ -8,4 +8,10 @@ public class PlayerData
     public int RemainingWeaponUses;
 
     public int RemainingLives = -1;
+
+    public int RedEssence = 0;
+
+    public int GreenEssence = 0;
+
+    public int YellowEssence = 0;
 }

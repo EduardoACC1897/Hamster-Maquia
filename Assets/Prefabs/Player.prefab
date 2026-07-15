@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 5213041163833890784}
   - component: {fileID: 517127088244817630}
   - component: {fileID: 1033761352458118282}
+  - component: {fileID: 1591498403247794919}
   - component: {fileID: 193852089553128716}
   m_Layer: 7
   m_Name: Player
@@ -417,6 +418,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
   initialSpawnPoint: {fileID: 0}
+--- !u!114 &1591498403247794919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254897287952704112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a950d1ae2137f7c4592f4d4851ee7ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerIngredientEssence
+  maxEssence: 10
 --- !u!114 &193852089553128716
 MonoBehaviour:
   m_ObjectHideFlags: 0

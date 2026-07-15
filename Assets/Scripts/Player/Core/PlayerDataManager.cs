@@ -25,6 +25,15 @@ public class PlayerDataManager : MonoBehaviour
     public int RemainingLives =>
         playerData.RemainingLives;
 
+    public int RedEssence =>
+    playerData.RedEssence;
+
+    public int GreenEssence =>
+        playerData.GreenEssence;
+
+    public int YellowEssence =>
+        playerData.YellowEssence;
+
     #endregion
 
     #region Unity Messages
@@ -64,6 +73,26 @@ public class PlayerDataManager : MonoBehaviour
     public void SetLives(int lives)
     {
         playerData.RemainingLives = lives;
+    }
+
+    public void SetEssence(
+    IngredientEssenceType type,
+    int amount)
+    {
+        switch (type)
+        {
+            case IngredientEssenceType.Red:
+                playerData.RedEssence = amount;
+                break;
+
+            case IngredientEssenceType.Green:
+                playerData.GreenEssence = amount;
+                break;
+
+            case IngredientEssenceType.Yellow:
+                playerData.YellowEssence = amount;
+                break;
+        }
     }
 
     public void ResetRun()

@@ -76,10 +76,7 @@ public class PlayerHealth : MonoBehaviour
 
         playerLayer = LayerMask.NameToLayer("Player");
         enemyLayer = LayerMask.NameToLayer("Enemy");
-    }
 
-    private void Start()
-    {
         currentHealth = maxHealth;
 
         if (PlayerDataManager.Instance.RemainingLives == -1)

@@ -15,7 +15,7 @@ public class WeaponManager : MonoBehaviour
     private WeaponData currentWeapon;
 
     private int remainingUses;
-
+    
     #endregion
 
     #region Public Properties
