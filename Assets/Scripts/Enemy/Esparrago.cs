@@ -15,6 +15,7 @@ public class Esparrago : Enemy
 
     private bool canAttack = true;
     private bool beInclinado = false;
+    [SerializeField] private Animator bodyAnimator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected override void Start()
@@ -75,6 +76,9 @@ public class Esparrago : Enemy
         //DISPARO
         if(proyectilPrefab != null && spawnPoint != null) 
         {
+            // Dispara animación de ataque
+            bodyAnimator.SetTrigger("Attack");
+
             //Asegurar trayectoria de la jabalina paralela al piso
             float rotacionY = (transform.eulerAngles.y == 180) ? 180f : 0f;
             Quaternion rotacionParalelo = Quaternion.Euler(0, rotacionY, 0);
