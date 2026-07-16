@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 2373963288334261369}
   - component: {fileID: 5213041163833890784}
   - component: {fileID: 517127088244817630}
+  - component: {fileID: 58012662750889542}
   - component: {fileID: 1033761352458118282}
   - component: {fileID: 1591498403247794919}
   - component: {fileID: 193852089553128716}
@@ -406,6 +407,21 @@ MonoBehaviour:
   knockbackForce: {x: 8, y: 10}
   hurtDuration: 0.25
   invulnerabilityTime: 3
+--- !u!114 &58012662750889542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254897287952704112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2127313c65dacf2429e33c014dfe181a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealAbility
+  healTime: 3
+  healAmount: 1
+  greenEssenceCost: 3
 --- !u!114 &1033761352458118282
 MonoBehaviour:
   m_ObjectHideFlags: 0

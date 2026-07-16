@@ -54,6 +54,12 @@ public class JumpAbility : PlayerAbility
             return;
         }
 
+        if (controller.IsHealing)
+        {
+            jumpBufferCounter = 0f;
+            return;
+        }
+
         if (controller.IsDead)
         {
             jumpBufferCounter = 0f;

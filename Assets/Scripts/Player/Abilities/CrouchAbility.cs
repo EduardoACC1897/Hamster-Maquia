@@ -56,6 +56,12 @@ public class CrouchAbility : PlayerAbility
             return;
         }
 
+        if (controller.IsHealing)
+        {
+            ExitCrouch();
+            return;
+        }
+
         if (controller.IsDead)
         {
             ExitCrouch();

@@ -49,6 +49,9 @@ public class AttackAbility : PlayerAbility
         if (controller.IsHurt)
             return;
 
+        if (controller.IsHealing)
+            return;
+
         if (controller.IsDead)
             return;
 

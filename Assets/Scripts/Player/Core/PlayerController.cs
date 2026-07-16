@@ -45,6 +45,8 @@ public class PlayerController : MonoBehaviour
 
     public bool IsHurt { get; set; }
 
+    public bool IsHealing { get; set; }
+
     public bool IsDead { get; set; }
 
     public bool IsGravityPaused { get; set; }

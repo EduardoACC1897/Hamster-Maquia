@@ -43,6 +43,24 @@ public class PlayerAnimation : MonoBehaviour
 
     #endregion
 
+    #region Heal
+
+    [Header("Heal")]
+
+    [SerializeField]
+    private Color healColor = Color.green;
+
+    [SerializeField]
+    private float minBlinkSpeed = 3f;
+
+    [SerializeField]
+    private float maxBlinkSpeed = 18f;
+
+    [SerializeField]
+    private float healFlashDuration = 0.25f;
+
+    #endregion
+
     #region State
 
     private SpriteRenderer visualRenderer;
@@ -50,6 +68,10 @@ public class PlayerAnimation : MonoBehaviour
     private Sequence deathSequence;
 
     private Coroutine flashCoroutine;
+
+    private Tween healTween;
+
+    private Color originalColor = Color.white;
 
     #endregion
 
@@ -61,6 +83,9 @@ public class PlayerAnimation : MonoBehaviour
         {
             visualRenderer =
                 visual.GetComponent<SpriteRenderer>();
+
+            originalColor =
+                visualRenderer.color;
         }
     }
 
@@ -135,6 +160,65 @@ public class PlayerAnimation : MonoBehaviour
         {
             visualRenderer.enabled = true;
         }
+    }
+
+    public void UpdateHealingEffect(
+    float progress)
+    {
+        if (visualRenderer == null)
+            return;
+
+        float blinkSpeed =
+            Mathf.Lerp(
+                minBlinkSpeed,
+                maxBlinkSpeed,
+                progress);
+
+        float blink =
+            Mathf.PingPong(
+                Time.time * blinkSpeed,
+                1f);
+
+        float colorAmount =
+            Mathf.Lerp(
+                blink * 0.25f,
+                1f,
+                progress);
+
+        visualRenderer.color =
+            Color.Lerp(
+                originalColor,
+                healColor,
+                colorAmount);
+    }
+
+    public void StopHealingEffect()
+    {
+        healTween?.Kill();
+
+        if (visualRenderer == null)
+            return;
+
+        visualRenderer.color =
+            originalColor;
+    }
+
+    public void PlayHealCompleteEffect()
+    {
+        if (visualRenderer == null)
+            return;
+
+        healTween?.Kill();
+
+        visualRenderer.color =
+            healColor;
+
+        healTween =
+            visualRenderer
+            .DOColor(
+                originalColor,
+                healFlashDuration)
+            .SetEase(Ease.OutQuad);
     }
 
     #endregion

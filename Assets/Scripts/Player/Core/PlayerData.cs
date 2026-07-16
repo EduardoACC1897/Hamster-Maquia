@@ -11,7 +11,7 @@ public class PlayerData
 
     public int RedEssence = 0;
 
-    public int GreenEssence = 0;
+    public int GreenEssence = 5;
 
     public int YellowEssence = 0;
 }

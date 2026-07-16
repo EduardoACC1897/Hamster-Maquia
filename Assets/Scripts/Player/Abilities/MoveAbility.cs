@@ -50,6 +50,12 @@ public class MoveAbility : PlayerAbility
             return;
         }
 
+        if (controller.IsHealing)
+        {
+            controller.HorizontalVelocity = 0f;
+            return;
+        }
+
         if (controller.IsDead)
         {
             controller.HorizontalVelocity = 0f;
