@@ -51,6 +51,8 @@ public class PlayerController : MonoBehaviour
 
     public bool IsGravityPaused { get; set; }
 
+    public float MovementSpeedMultiplier { get; private set; } = 1f;
+
     #endregion
 
     #region Public Properties
@@ -165,6 +167,18 @@ public class PlayerController : MonoBehaviour
     {
         TargetVelocity = velocity;
         rb.linearVelocity = velocity;
+    }
+
+    public void SetMovementSpeedMultiplier(
+    float multiplier)
+    {
+        MovementSpeedMultiplier =
+            Mathf.Max(0f, multiplier);
+    }
+
+    public void ResetMovementSpeedMultiplier()
+    {
+        MovementSpeedMultiplier = 1f;
     }
 
     #endregion
