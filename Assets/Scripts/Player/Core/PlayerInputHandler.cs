@@ -7,8 +7,10 @@ public class PlayerInputHandler : MonoBehaviour
 
     // Referencias directas a las acciones
     private InputAction moveAction;
+    private InputAction runAction;
     private InputAction jumpAction;
     private InputAction attackAction;
+    private InputAction healAction;
 
     private bool inputEnabled = true;
 
@@ -19,6 +21,12 @@ public class PlayerInputHandler : MonoBehaviour
     public float MoveX => MoveInput.x;
 
     public float MoveY => MoveInput.y;
+
+    #region Run
+
+    public bool RunHeld { get; private set; }
+
+    #endregion
 
     #endregion
 
@@ -42,13 +50,21 @@ public class PlayerInputHandler : MonoBehaviour
 
     #endregion
 
+    #region heal
+
+    public bool HealHeld { get; private set; }
+
+    #endregion
+
     private void Awake()
     {
         inputActions = new PlayerInputActions();
 
         moveAction = inputActions.Player.Move;
+        runAction = inputActions.Player.Run;
         jumpAction = inputActions.Player.Jump;
         attackAction = inputActions.Player.Attack;
+        healAction = inputActions.Player.Heal;
     }
 
     private void OnEnable()
@@ -71,6 +87,8 @@ public class PlayerInputHandler : MonoBehaviour
 
         MoveInput = moveAction.ReadValue<Vector2>();
 
+        RunHeld = runAction.IsPressed();
+
         JumpPressed = jumpAction.WasPressedThisFrame();
         JumpHeld = jumpAction.IsPressed();
         JumpReleased = jumpAction.WasReleasedThisFrame();
@@ -78,6 +96,8 @@ public class PlayerInputHandler : MonoBehaviour
         AttackPressed = attackAction.WasPressedThisFrame();
         AttackHeld = attackAction.IsPressed();
         AttackReleased = attackAction.WasReleasedThisFrame();
+
+        HealHeld = healAction.IsPressed();
 
 #if UNITY_EDITOR
         DebugInputs();
@@ -103,6 +123,8 @@ public class PlayerInputHandler : MonoBehaviour
     private void ResetInputState()
     {
         MoveInput = Vector2.zero;
+
+        RunHeld = false;
 
         JumpPressed = false;
         JumpHeld = false;

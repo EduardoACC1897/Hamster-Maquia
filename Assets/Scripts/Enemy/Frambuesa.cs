@@ -16,6 +16,8 @@ public class Frambuesa : Enemy
 
     private bool estaAtacando = false;
     [SerializeField] private Animator bodyAnimator;
+    [SerializeField] private SpriteRenderer spriteRendererCuerpo;
+    [SerializeField] private SpriteRenderer spriteRendererHojas;
 
     protected override void Start()
     {
@@ -119,8 +121,13 @@ public class Frambuesa : Enemy
     protected void MirarHacia(Vector2 destino)
     {
         if (destino.x > transform.position.x)
-            transform.localScale = new Vector3(1, 1, 1);
-        else
-            transform.localScale = new Vector3(-1, 1, 1);
+        {
+            spriteRendererCuerpo.flipX = false;
+            spriteRendererHojas.flipX = false;
+        }
+        else {
+            spriteRendererCuerpo.flipX = true;
+            spriteRendererHojas.flipX = true;
+        }
     }
 }

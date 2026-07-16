@@ -7,8 +7,6 @@ public class AttackAbility : PlayerAbility
 
     [Header("References")]
 
-    [SerializeField] private Transform visualTransform;
-
     [SerializeField] private Transform attackPoint;
 
     [SerializeField] private LayerMask enemyLayer;
@@ -49,6 +47,9 @@ public class AttackAbility : PlayerAbility
         }
 
         if (controller.IsHurt)
+            return;
+
+        if (controller.IsHealing)
             return;
 
         if (controller.IsDead)

@@ -6,17 +6,31 @@ public class MoveAbility : PlayerAbility
 
     [Header("Ground Movement")]
 
-    [SerializeField] private float maxGroundSpeed = 8f;
+    [SerializeField]
+    private float maxGroundSpeed = 6f;
 
-    [SerializeField] private float groundAcceleration = 500f;
+    [SerializeField]
+    private float runSpeedBonus = 2f;
 
-    [SerializeField] private float groundDeceleration = 600f;
+    [SerializeField]
+    private float groundAcceleration = 500f;
+
+    [SerializeField]
+    private float groundDeceleration = 600f;
 
     [Header("Air Movement")]
 
-    [SerializeField] private float airAcceleration = 400f;
+    [SerializeField]
+    private float airAcceleration = 400f;
 
-    [SerializeField] private float airDeceleration = 350f;
+    [SerializeField]
+    private float airDeceleration = 350f;
+
+    #endregion
+
+    #region State
+
+    private bool keepRunSpeedInAir;
 
     #endregion
 
@@ -36,6 +50,12 @@ public class MoveAbility : PlayerAbility
             return;
         }
 
+        if (controller.IsHealing)
+        {
+            controller.HorizontalVelocity = 0f;
+            return;
+        }
+
         if (controller.IsDead)
         {
             controller.HorizontalVelocity = 0f;
@@ -48,8 +68,32 @@ public class MoveAbility : PlayerAbility
             return;
         }
 
+        // Al tocar el suelo decidimos si la siguiente vez
+        // saltaremos corriendo o caminando.
+        if (controller.IsGrounded)
+        {
+            keepRunSpeedInAir = input.RunHeld;
+        }
+
+        float speed = maxGroundSpeed;
+
+        if (controller.IsGrounded)
+        {
+            if (input.RunHeld)
+            {
+                speed += runSpeedBonus;
+            }
+        }
+        else
+        {
+            if (keepRunSpeedInAir)
+            {
+                speed += runSpeedBonus;
+            }
+        }
+
         float currentSpeed = controller.HorizontalVelocity;
-        float targetSpeed = input.MoveX * maxGroundSpeed;
+        float targetSpeed = input.MoveX * speed;
 
         float acceleration;
 
@@ -71,8 +115,7 @@ public class MoveAbility : PlayerAbility
         currentSpeed = Mathf.MoveTowards(
             currentSpeed,
             targetSpeed,
-            acceleration * Time.fixedDeltaTime
-        );
+            acceleration * Time.fixedDeltaTime);
 
         controller.HorizontalVelocity = currentSpeed;
     }

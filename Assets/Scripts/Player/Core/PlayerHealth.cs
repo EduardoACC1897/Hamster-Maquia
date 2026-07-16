@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using DG.Tweening;
 using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
@@ -27,37 +26,6 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField]
     private float invulnerabilityTime = 3f;
 
-    [Header("References")]
-
-    [SerializeField]
-    private Transform visual;
-
-    #endregion
-
-    #region Animations
-
-    [Header("Death Animation")]
-
-    [SerializeField]
-    private float deathJumpHeight = 1.5f;
-
-    [SerializeField]
-    private float deathJumpDuration = 0.3f;
-
-    [SerializeField]
-    private float deathPauseDuration = 0.6f;
-
-    [SerializeField]
-    private float deathFallDistance = 8f;
-
-    [SerializeField]
-    private float deathFallDuration = 0.9f;
-
-    [Header("Invulnerability Flash")]
-
-    [SerializeField]
-    private float flashInterval = 0.1f;
-
     #endregion
 
     #region State
@@ -76,12 +44,11 @@ public class PlayerHealth : MonoBehaviour
 
     private PlayerRespawn respawn;
 
+    private PlayerAnimation playerAnimation;
+
     private int playerLayer;
+
     private int enemyLayer;
-
-    private Sequence deathSequence;
-
-    private SpriteRenderer visualRenderer;
 
     #endregion
 
@@ -105,21 +72,25 @@ public class PlayerHealth : MonoBehaviour
     {
         controller = GetComponent<PlayerController>();
         respawn = GetComponent<PlayerRespawn>();
+        playerAnimation = GetComponent<PlayerAnimation>();
 
         playerLayer = LayerMask.NameToLayer("Player");
         enemyLayer = LayerMask.NameToLayer("Enemy");
 
-        if (visual != null)
-        {
-            visualRenderer =
-                visual.GetComponent<SpriteRenderer>();
-        }
-    }
-
-    private void Start()
-    {
         currentHealth = maxHealth;
-        currentLives = startingLives;
+
+        if (PlayerDataManager.Instance.RemainingLives == -1)
+        {
+            currentLives = startingLives;
+
+            PlayerDataManager.Instance.SetLives(
+                currentLives);
+        }
+        else
+        {
+            currentLives =
+                PlayerDataManager.Instance.RemainingLives;
+        }
     }
 
     #endregion
@@ -127,8 +98,8 @@ public class PlayerHealth : MonoBehaviour
     #region Public Methods
 
     public void TakeDamage(
-    int damage,
-    Vector2 damageSource)
+        int damage,
+        Vector2 damageSource)
     {
         if (isDead)
             return;
@@ -164,8 +135,7 @@ public class PlayerHealth : MonoBehaviour
 
     #region Private Methods
 
-    private void ApplyKnockback(
-        Vector2 damageSource)
+    private void ApplyKnockback(Vector2 damageSource)
     {
         float direction = Mathf.Sign(
             transform.position.x -
@@ -191,8 +161,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (invulnerabilityCoroutine != null)
         {
-            StopCoroutine(
-                invulnerabilityCoroutine);
+            StopCoroutine(invulnerabilityCoroutine);
         }
 
         invulnerabilityCoroutine =
@@ -213,8 +182,8 @@ public class PlayerHealth : MonoBehaviour
             enemyLayer,
             true);
 
-        StartCoroutine(
-            FlashRoutine());
+        playerAnimation.StartFlash(
+            invulnerabilityTime);
 
         yield return new WaitForSeconds(
             invulnerabilityTime);
@@ -226,33 +195,9 @@ public class PlayerHealth : MonoBehaviour
 
         isInvulnerable = false;
 
-        if (visualRenderer != null)
-        {
-            visualRenderer.enabled = true;
-        }
+        playerAnimation.StopFlash();
 
         invulnerabilityCoroutine = null;
-    }
-
-    private IEnumerator FlashRoutine()
-    {
-        if (visualRenderer == null)
-            yield break;
-
-        while (isInvulnerable)
-        {
-            visualRenderer.enabled = false;
-
-            yield return new WaitForSeconds(
-                flashInterval);
-
-            visualRenderer.enabled = true;
-
-            yield return new WaitForSeconds(
-                flashInterval);
-        }
-
-        visualRenderer.enabled = true;
     }
 
     private IEnumerator HurtRoutine()
@@ -263,47 +208,6 @@ public class PlayerHealth : MonoBehaviour
         controller.IsHurt = false;
     }
 
-    private IEnumerator PlayDeathAnimation()
-    {
-        if (visual == null)
-            yield break;
-
-        Vector3 startPosition = visual.localPosition;
-
-        deathSequence = DOTween.Sequence();
-
-        deathSequence
-            // Subida del jugador
-            .Append(
-                visual.DOLocalMoveY(
-                    startPosition.y + deathJumpHeight,
-                    deathJumpDuration)
-                .SetEase(Ease.OutQuad)
-            )
-
-            // Mantenerse en el aire
-            .AppendInterval(
-                deathPauseDuration)
-
-            // Caída del jugador
-            .Append(
-                visual.DOLocalMoveY(
-                    startPosition.y - deathFallDistance,
-                    deathFallDuration)
-                .SetEase(Ease.InQuad)
-            );
-
-
-        yield return deathSequence.WaitForCompletion();
-
-
-        // Restauramos la posición del sprite
-        if(currentLives > 0)
-        {
-            visual.localPosition = startPosition;
-        }       
-    }
-
     private IEnumerator DeathRoutine()
     {
         isDead = true;
@@ -311,14 +215,15 @@ public class PlayerHealth : MonoBehaviour
 
         currentLives--;
 
-        // 1. Detener cualquier movimiento
-        controller.ApplyImpulse(Vector2.zero);
-        controller.Rigidbody2D.linearVelocity = Vector2.zero;
+        PlayerDataManager.Instance.SetLives(
+            currentLives);
 
-        // 2. Desactivar la física
+        controller.ApplyImpulse(Vector2.zero);
+        controller.Rigidbody2D.linearVelocity =
+            Vector2.zero;
+
         controller.Rigidbody2D.simulated = false;
 
-        // 3. Ignorar colisiones con enemigos
         Physics2D.IgnoreLayerCollision(
             playerLayer,
             enemyLayer,
@@ -326,8 +231,8 @@ public class PlayerHealth : MonoBehaviour
 
         controller.Collider.enabled = false;
 
-        // 4. Animación de muerte
-        yield return PlayDeathAnimation();
+        yield return playerAnimation.PlayDeathAnimation(
+            currentLives > 0);
 
         if (currentLives > 0)
         {
@@ -347,7 +252,8 @@ public class PlayerHealth : MonoBehaviour
             yield break;
         }
 
-        // Sin vidas restantes
+        PlayerDataManager.Instance.ResetRun();
+
         SceneManager.LoadScene("GameOver");
     }
 
