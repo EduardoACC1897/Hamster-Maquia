@@ -378,17 +378,17 @@ Tilemap:
   m_TileAssetArray:
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: 0}
+    m_Data: {fileID: 11400000, guid: 480e2b9badb67ad4ca759236f8a59d75, type: 2}
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: 0}
+    m_Data: {fileID: 11400000, guid: 42f6ec4ae6a14de4684008f48b6535e9, type: 2}
   m_TileSpriteArray:
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: 631354831, guid: 3db3bc17bf5c24448883c0fe9e288f8f, type: 3}
+    m_Data: {fileID: -7933298228110686459, guid: 3db3bc17bf5c24448883c0fe9e288f8f, type: 3}
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: 378876041, guid: 3db3bc17bf5c24448883c0fe9e288f8f, type: 3}
+    m_Data: {fileID: -6108889420429456849, guid: 3db3bc17bf5c24448883c0fe9e288f8f, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
     m_RefCount: 0
@@ -416,8 +416,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -9, y: -1, z: 0}
-  m_Size: {x: 9, y: 3, z: 1}
+  m_Origin: {x: -9, y: -2, z: 0}
+  m_Size: {x: 9, y: 4, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -1842,6 +1842,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5274089800791486360, guid: 6e6a21bd8e2d6804798089f5c7659bba, type: 3}
+      propertyPath: shrinkDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7598821334251044081, guid: 6e6a21bd8e2d6804798089f5c7659bba, type: 3}
       propertyPath: m_Name
       value: OrbOfYellowEssence
@@ -1899,6 +1903,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2522999142881031816, guid: df68d30d5b1befa40b7c898746bf1190, type: 3}
+      propertyPath: shrinkDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4814900030863474039, guid: df68d30d5b1befa40b7c898746bf1190, type: 3}
       propertyPath: m_Name
       value: OrbOfGreenEssence
@@ -1916,10 +1924,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 517127088244817630, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
-      propertyPath: maxHealth
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1033761352458118282, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
       propertyPath: initialSpawnPoint
       value: 
@@ -1934,7 +1938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4783851662103928880, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4783851662103928880, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1968,10 +1972,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8864750830357439176, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2028,6 +2028,10 @@ PrefabInstance:
     - target: {fileID: 6223352300010495359, guid: b905167e382dcfe4289b3d499c5bcb06, type: 3}
       propertyPath: m_Name
       value: OrbOfRedEssence
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116469199215901066, guid: b905167e382dcfe4289b3d499c5bcb06, type: 3}
+      propertyPath: shrinkDistance
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

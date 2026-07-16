@@ -16,6 +16,15 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "21f884af-818a-497f-99f7-34921063b61a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Jump",
                     "type": "Button",
                     "id": "7c79de0b-25cc-43e9-9ae5-53acd8f252a5",
@@ -28,6 +37,15 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "56157bab-bf52-436d-a7ad-014774f9139d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Heal",
+                    "type": "Button",
+                    "id": "7ec15fd8-f425-4c4c-8e3b-bee32ad1eb89",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -48,7 +66,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "77686e0a-8d64-400c-8778-d72acd572948",
+                    "id": "50f22f8b-de8c-441c-acbd-92c9b31b9288",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -103,7 +121,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "d6fc582f-9bb7-4a58-b100-c377de3943e1",
+                    "id": "341080ca-349b-4aae-9160-18eee7885400",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
@@ -147,6 +165,28 @@
                 },
                 {
                     "name": "",
+                    "id": "9f0afeb4-23ce-4df9-9cc3-b964c627f448",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97439808-c90d-4881-803c-21c477dd6dc1",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "2cd6c932-0790-40d2-bec9-effea2c0ccba",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -164,6 +204,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d27e6803-a822-4882-908b-9a849eec8564",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d06fc6e9-86aa-4b4e-9754-ea287b9a26f4",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da95aea8-1b90-4cd2-a70f-1c3cd642ff49",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Heal",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

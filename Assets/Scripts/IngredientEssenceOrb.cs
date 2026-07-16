@@ -31,7 +31,7 @@ public class IngredientEssenceOrb : MonoBehaviour
     private float destroyDistance = 0.08f;
 
     [SerializeField]
-    private float shrinkDistance = 1.5f;
+    private float shrinkDistance = 1f;
 
     [SerializeField]
     private float shrinkSpeed = 6f;

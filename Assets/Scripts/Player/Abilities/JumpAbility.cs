@@ -124,19 +124,21 @@ public class JumpAbility : PlayerAbility
     {
         jumpBufferCounter = 0f;
         coyoteCounter = 0f;
-        shouldCutJump = false;
 
         controller.ApplyImpulse(new Vector2(
             controller.HorizontalVelocity,
             jumpForce
         ));
+
+        shouldCutJump = !input.JumpHeld;
     }
 
     private void CutJump()
     {
         if (controller.VerticalVelocity > 0f)
         {
-            controller.VerticalVelocity *= jumpCutMultiplier;
+            controller.VerticalVelocity *=
+                jumpCutMultiplier;
         }
 
         shouldCutJump = false;
