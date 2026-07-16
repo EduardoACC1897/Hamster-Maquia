@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 6ba63d39cfe189b49b494398dcfac319
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5734517290232804333
+    second: Interfaz_Daltonico_HamsterMaquia_0
+  - first:
+      213: -3854669703440546626
+    second: Interfaz_Daltonico_HamsterMaquia_1
+  - first:
+      213: 3326053966025649948
+    second: Interfaz_Daltonico_HamsterMaquia_2
+  - first:
+      213: -3707333421260913613
+    second: Interfaz_Daltonico_HamsterMaquia_3
+  - first:
+      213: -9188102368372464590
+    second: Interfaz_Daltonico_HamsterMaquia_4
+  - first:
+      213: -8452110210648485424
+    second: Interfaz_Daltonico_HamsterMaquia_5
+  - first:
+      213: 531272835542304848
+    second: Interfaz_Daltonico_HamsterMaquia_6
+  - first:
+      213: 5368878490830809517
+    second: Interfaz_Daltonico_HamsterMaquia_7
+  - first:
+      213: 1127646863666444261
+    second: Interfaz_Daltonico_HamsterMaquia_8
+  - first:
+      213: -2373332421338960927
+    second: Interfaz_Daltonico_HamsterMaquia_9
+  - first:
+      213: -1208520772562814204
+    second: Interfaz_Daltonico_HamsterMaquia_10
+  - first:
+      213: 8256678308988260616
+    second: Interfaz_Daltonico_HamsterMaquia_11
+  - first:
+      213: -2672643194427815676
+    second: Interfaz_Daltonico_HamsterMaquia_12
+  - first:
+      213: 6890634256502506440
+    second: Interfaz_Daltonico_HamsterMaquia_13
+  - first:
+      213: -2126524777369807541
+    second: Interfaz_Daltonico_HamsterMaquia_14
+  - first:
+      213: -810884454291797004
+    second: Interfaz_Daltonico_HamsterMaquia_15
+  - first:
+      213: -2783431338851222236
+    second: Interfaz_Daltonico_HamsterMaquia_16
+  - first:
+      213: 5438639138042995411
+    second: Interfaz_Daltonico_HamsterMaquia_17
+  - first:
+      213: 2135363754979505278
+    second: Interfaz_Daltonico_HamsterMaquia_18
+  - first:
+      213: 2871204001639226076
+    second: Interfaz_Daltonico_HamsterMaquia_19
+  - first:
+      213: -188332175919265727
+    second: Interfaz_Daltonico_HamsterMaquia_20
+  - first:
+      213: -7620242592726682074
+    second: Interfaz_Daltonico_HamsterMaquia_21
+  - first:
+      213: 7071096945543427253
+    second: Interfaz_Daltonico_HamsterMaquia_22
+  - first:
+      213: -5372816340686761855
+    second: Interfaz_Daltonico_HamsterMaquia_23
+  - first:
+      213: -2135892341390147158
+    second: Interfaz_Daltonico_HamsterMaquia_24
+  - first:
+      213: -8035444105856523373
+    second: Interfaz_Daltonico_HamsterMaquia_25
+  - first:
+      213: -5753412785297942999
+    second: Interfaz_Daltonico_HamsterMaquia_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 258
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c865548e6ea60b0800000000000000
+      internalID: -5734517290232804333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 258
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb447ffd356718ac0800000000000000
+      internalID: -3854669703440546626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 247
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fecbcb574882e20800000000000000
+      internalID: 3326053966025649948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 247
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3344fc945e7ec8cc0800000000000000
+      internalID: -3707333421260913613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 236
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234eb3d939d4d7080800000000000000
+      internalID: -9188102368372464590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 236
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d158db6b8214ba80800000000000000
+      internalID: -8452110210648485424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058405144d57f5700800000000000000
+      internalID: 531272835542304848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 226
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9a438ba86128a40800000000000000
+      internalID: 5368878490830809517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 214
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7fbe419d436af00800000000000000
+      internalID: 1127646863666444261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 215
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb6c2cbcba301fd0800000000000000
+      internalID: -2373332421338960927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 203
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b76b7a2c87a3fe0800000000000000
+      internalID: -1208520772562814204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 204
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8011bef1d2d959270800000000000000
+      internalID: 8256678308988260616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409c3c8cc2dd8ead0800000000000000
+      internalID: -2672643194427815676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 193
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c348ff195370af50800000000000000
+      internalID: 6890634256502506440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b455ec65bf01d72e0800000000000000
+      internalID: -2126524777369807541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 183
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb0d0492e82fb4f0800000000000000
+      internalID: -810884454291797004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 170
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d351fc1f34f59d0800000000000000
+      internalID: -2783431338851222236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 172
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2e69c1b7de97b40800000000000000
+      internalID: 5438639138042995411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e743cc1850652ad10800000000000000
+      internalID: 2135363754979505278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 161
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdad263c3d098d720800000000000000
+      internalID: 2871204001639226076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1484e8242e8e26df0800000000000000
+      internalID: -188332175919265727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 150
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62679365cb57f3690800000000000000
+      internalID: -7620242592726682074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 137
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4377b2535912260800000000000000
+      internalID: 7071096945543427253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_23
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 139
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18093f9210cef65b0800000000000000
+      internalID: -5372816340686761855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa186f06b39cb52e0800000000000000
+      internalID: -2135892341390147158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3936ae9c82e5c7090800000000000000
+      internalID: -8035444105856523373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz_Daltonico_HamsterMaquia_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926102efd85c720b0800000000000000
+      internalID: -5753412785297942999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Interfaz_Daltonico_HamsterMaquia_0: -5734517290232804333
+      Interfaz_Daltonico_HamsterMaquia_1: -3854669703440546626
+      Interfaz_Daltonico_HamsterMaquia_10: -1208520772562814204
+      Interfaz_Daltonico_HamsterMaquia_11: 8256678308988260616
+      Interfaz_Daltonico_HamsterMaquia_12: -2672643194427815676
+      Interfaz_Daltonico_HamsterMaquia_13: 6890634256502506440
+      Interfaz_Daltonico_HamsterMaquia_14: -2126524777369807541
+      Interfaz_Daltonico_HamsterMaquia_15: -810884454291797004
+      Interfaz_Daltonico_HamsterMaquia_16: -2783431338851222236
+      Interfaz_Daltonico_HamsterMaquia_17: 5438639138042995411
+      Interfaz_Daltonico_HamsterMaquia_18: 2135363754979505278
+      Interfaz_Daltonico_HamsterMaquia_19: 2871204001639226076
+      Interfaz_Daltonico_HamsterMaquia_2: 3326053966025649948
+      Interfaz_Daltonico_HamsterMaquia_20: -188332175919265727
+      Interfaz_Daltonico_HamsterMaquia_21: -7620242592726682074
+      Interfaz_Daltonico_HamsterMaquia_22: 7071096945543427253
+      Interfaz_Daltonico_HamsterMaquia_23: -5372816340686761855
+      Interfaz_Daltonico_HamsterMaquia_24: -2135892341390147158
+      Interfaz_Daltonico_HamsterMaquia_25: -8035444105856523373
+      Interfaz_Daltonico_HamsterMaquia_26: -5753412785297942999
+      Interfaz_Daltonico_HamsterMaquia_3: -3707333421260913613
+      Interfaz_Daltonico_HamsterMaquia_4: -9188102368372464590
+      Interfaz_Daltonico_HamsterMaquia_5: -8452110210648485424
+      Interfaz_Daltonico_HamsterMaquia_6: 531272835542304848
+      Interfaz_Daltonico_HamsterMaquia_7: 5368878490830809517
+      Interfaz_Daltonico_HamsterMaquia_8: 1127646863666444261
+      Interfaz_Daltonico_HamsterMaquia_9: -2373332421338960927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

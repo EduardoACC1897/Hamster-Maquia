@@ -1,0 +1,1575 @@
+fileFormatVersion: 2
+guid: 7b7d32fb992e33547b6011d8b32cea20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3528620894332510165
+    second: Interfaz3-HamsterMaquia_0
+  - first:
+      213: -4698887831198102530
+    second: Interfaz3-HamsterMaquia_1
+  - first:
+      213: 1941681427198470820
+    second: Interfaz3-HamsterMaquia_2
+  - first:
+      213: -8535549161816827075
+    second: Interfaz3-HamsterMaquia_3
+  - first:
+      213: -2904254641495601397
+    second: Interfaz3-HamsterMaquia_4
+  - first:
+      213: 813625132782153433
+    second: Interfaz3-HamsterMaquia_5
+  - first:
+      213: -5163481971678116885
+    second: Interfaz3-HamsterMaquia_6
+  - first:
+      213: -7574049981895633950
+    second: Interfaz3-HamsterMaquia_7
+  - first:
+      213: -5568980347522758681
+    second: Interfaz3-HamsterMaquia_8
+  - first:
+      213: 2507562677261249916
+    second: Interfaz3-HamsterMaquia_9
+  - first:
+      213: 5092485025954986000
+    second: Interfaz3-HamsterMaquia_10
+  - first:
+      213: 2822283730020154449
+    second: Interfaz3-HamsterMaquia_11
+  - first:
+      213: 6412075687271196313
+    second: Interfaz3-HamsterMaquia_12
+  - first:
+      213: -2967359598317775130
+    second: Interfaz3-HamsterMaquia_13
+  - first:
+      213: 4175217206658141394
+    second: Interfaz3-HamsterMaquia_14
+  - first:
+      213: -8348687624276250307
+    second: Interfaz3-HamsterMaquia_15
+  - first:
+      213: -8257696100207148161
+    second: Interfaz3-HamsterMaquia_16
+  - first:
+      213: -5533946806876189940
+    second: Interfaz3-HamsterMaquia_17
+  - first:
+      213: -7605420200155013318
+    second: Interfaz3-HamsterMaquia_18
+  - first:
+      213: -6107390544790875981
+    second: Interfaz3-HamsterMaquia_19
+  - first:
+      213: 1961300480698469170
+    second: Interfaz3-HamsterMaquia_20
+  - first:
+      213: 1798481414999551107
+    second: Interfaz3-HamsterMaquia_21
+  - first:
+      213: 9104182032212638721
+    second: Interfaz3-HamsterMaquia_22
+  - first:
+      213: 7048678775060186658
+    second: Interfaz3-HamsterMaquia_23
+  - first:
+      213: -1393604801941465697
+    second: Interfaz3-HamsterMaquia_24
+  - first:
+      213: 1083114515550691751
+    second: Interfaz3-HamsterMaquia_25
+  - first:
+      213: 9064104284411436209
+    second: Interfaz3-HamsterMaquia_26
+  - first:
+      213: -8157581216407463035
+    second: Interfaz3-HamsterMaquia_27
+  - first:
+      213: 497154039124989014
+    second: Interfaz3-HamsterMaquia_28
+  - first:
+      213: -267495101209551684
+    second: Interfaz3-HamsterMaquia_29
+  - first:
+      213: 6535000333728859190
+    second: Interfaz3-HamsterMaquia_30
+  - first:
+      213: -1695222088321674401
+    second: Interfaz3-HamsterMaquia_31
+  - first:
+      213: 5043178345248615692
+    second: Interfaz3-HamsterMaquia_32
+  - first:
+      213: 4855002468510908373
+    second: Interfaz3-HamsterMaquia_33
+  - first:
+      213: 1368991273959267126
+    second: Interfaz3-HamsterMaquia_34
+  - first:
+      213: -3942771223817143865
+    second: Interfaz3-HamsterMaquia_35
+  - first:
+      213: 5031129954076002902
+    second: Interfaz3-HamsterMaquia_36
+  - first:
+      213: 9136284247166170048
+    second: Interfaz3-HamsterMaquia_37
+  - first:
+      213: 3769760863862894218
+    second: Interfaz3-HamsterMaquia_38
+  - first:
+      213: 6674072758864196530
+    second: Interfaz3-HamsterMaquia_39
+  - first:
+      213: 8515661070359114157
+    second: Interfaz3-HamsterMaquia_40
+  - first:
+      213: 8890483782971017966
+    second: Interfaz3-HamsterMaquia_41
+  - first:
+      213: -43933770029707428
+    second: Interfaz3-HamsterMaquia_42
+  - first:
+      213: -7145927039269792449
+    second: Interfaz3-HamsterMaquia_43
+  - first:
+      213: 8721600974850665200
+    second: Interfaz3-HamsterMaquia_44
+  - first:
+      213: 3022022165650385215
+    second: Interfaz3-HamsterMaquia_45
+  - first:
+      213: 3960120393771564451
+    second: Interfaz3-HamsterMaquia_46
+  - first:
+      213: 5860747121744113609
+    second: Interfaz3-HamsterMaquia_47
+  - first:
+      213: -4731793658038353752
+    second: Interfaz3-HamsterMaquia_48
+  - first:
+      213: 2757289586546260303
+    second: Interfaz3-HamsterMaquia_49
+  - first:
+      213: 1893364383830099057
+    second: Interfaz3-HamsterMaquia_50
+  - first:
+      213: -274939851606163941
+    second: Interfaz3-HamsterMaquia_51
+  - first:
+      213: 6897777591339253801
+    second: Interfaz3-HamsterMaquia_52
+  - first:
+      213: -1409738274848387403
+    second: Interfaz3-HamsterMaquia_53
+  - first:
+      213: 553449732153353672
+    second: Interfaz3-HamsterMaquia_54
+  - first:
+      213: 8030578325396351601
+    second: Interfaz3-HamsterMaquia_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 259
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b202a46fdf1d70fc0800000000000000
+      internalID: -3528620894332510165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 259
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb080ec9623aceb0800000000000000
+      internalID: -4698887831198102530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 220
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa632778fc32fa10800000000000000
+      internalID: 1941681427198470820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 248
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b5607b243ab8980800000000000000
+      internalID: -8535549161816827075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 248
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f006c7ac302b7d0800000000000000
+      internalID: -2904254641495601397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 237
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de6fcb5fb39a4b00800000000000000
+      internalID: 813625132782153433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 237
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be30ef90180a758b0800000000000000
+      internalID: -5163481971678116885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e39e06aba193e690800000000000000
+      internalID: -7574049981895633950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 227
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e746c031e107b2b0800000000000000
+      internalID: -5568980347522758681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 209
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d2f2628f6acc220800000000000000
+      internalID: 2507562677261249916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_10
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 208
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018fa0466242ca640800000000000000
+      internalID: 5092485025954986000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 215
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c373f6914ca2720800000000000000
+      internalID: 2822283730020154449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 216
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996e7bc6dd44cf850800000000000000
+      internalID: 6412075687271196313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e65c65ca22d1d6d0800000000000000
+      internalID: -2967359598317775130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 205
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc05fe9de951f930800000000000000
+      internalID: 4175217206658141394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 184
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d317056c6d0832c80800000000000000
+      internalID: -8348687624276250307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_16
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 184
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f734604e525c66d80800000000000000
+      internalID: -8257696100207148161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_17
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bcc3203b87333b0800000000000000
+      internalID: -5533946806876189940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 183
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f1e2a8f9e147690800000000000000
+      internalID: -7605420200155013318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 193
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0192968a03e3ba0800000000000000
+      internalID: -6107390544790875981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 194
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bc5d15560f73b10800000000000000
+      internalID: 1961300480698469170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 182
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ca034715d75f810800000000000000
+      internalID: 1798481414999551107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_22
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 184
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c3780825d885e70800000000000000
+      internalID: 9104182032212638721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 171
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2264c4b1000f1d160800000000000000
+      internalID: 7048678775060186658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 173
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f951007f0dbe8ace0800000000000000
+      internalID: -1393604801941465697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 130
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1e77ec9eef70f00800000000000000
+      internalID: 1083114515550691751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 131
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc907fa2da2acd70800000000000000
+      internalID: 9064104284411436209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_27
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 129
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b52a9ba137ace80800000000000000
+      internalID: -8157581216407463035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_28
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 126
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65412bce6fe36e600800000000000000
+      internalID: 497154039124989014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 160
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc5f396f9aa94cf0800000000000000
+      internalID: -267495101209551684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 162
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634c7fafd2cf0ba50800000000000000
+      internalID: 6535000333728859190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 149
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53d03a0e7c5978e0800000000000000
+      internalID: -1695222088321674401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 151
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d6c7f2cf7fcf540800000000000000
+      internalID: 5043178345248615692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_33
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfbc3fa50f606340800000000000000
+      internalID: 4855002468510908373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_34
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 135
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b93f87f42aff210800000000000000
+      internalID: 1368991273959267126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_35
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c93fbd26767849c0800000000000000
+      internalID: -3942771223817143865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_36
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 149
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a0783890a22d540800000000000000
+      internalID: 5031129954076002902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3365fdd1a9ace70800000000000000
+      internalID: 9136284247166170048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_38
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 149
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ea7ba5881e05430800000000000000
+      internalID: 3769760863862894218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 138
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3363d30d11f9c50800000000000000
+      internalID: 6674072758864196530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_40
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 140
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1b06620a4bd2670800000000000000
+      internalID: 8515661070359114157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_41
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 135
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeacb5595e7516b70800000000000000
+      internalID: 8890483782971017966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_42
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 135
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f4cbb087ae36ff0800000000000000
+      internalID: -43933770029707428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 135
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f351771f73194dc90800000000000000
+      internalID: -7145927039269792449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_44
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 135
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faacaaa0e9590970800000000000000
+      internalID: 8721600974850665200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_45
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 135
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39a2f6f52160f920800000000000000
+      internalID: 3022022165650385215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 127
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adb88a348c25f630800000000000000
+      internalID: 3960120393771564451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_47
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 80
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf63f5a47e855150800000000000000
+      internalID: 5860747121744113609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_48
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 77
+        width: 13
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a08d26fcba455eb0800000000000000
+      internalID: -4731793658038353752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 116
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4939fc254cd34620800000000000000
+      internalID: 2757289586546260303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_50
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 80
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174c19820e4964a10800000000000000
+      internalID: 1893364383830099057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_51
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 74
+        width: 165
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e7a6269a73f2cf0800000000000000
+      internalID: -274939851606163941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_52
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 74
+        width: 75
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9200d6f5c24d9bf50800000000000000
+      internalID: 6897777591339253801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_53
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 72
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bec365128a9f6ce0800000000000000
+      internalID: -1409738274848387403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_54
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 77
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5290e599f3ea700800000000000000
+      internalID: 553449732153353672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz3-HamsterMaquia_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a633a6078527f60800000000000000
+      internalID: 8030578325396351601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 53b061eac90b2d240a9cdbe85d861dba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Interfaz3-HamsterMaquia_0: -3528620894332510165
+      Interfaz3-HamsterMaquia_1: -4698887831198102530
+      Interfaz3-HamsterMaquia_10: 5092485025954986000
+      Interfaz3-HamsterMaquia_11: 2822283730020154449
+      Interfaz3-HamsterMaquia_12: 6412075687271196313
+      Interfaz3-HamsterMaquia_13: -2967359598317775130
+      Interfaz3-HamsterMaquia_14: 4175217206658141394
+      Interfaz3-HamsterMaquia_15: -8348687624276250307
+      Interfaz3-HamsterMaquia_16: -8257696100207148161
+      Interfaz3-HamsterMaquia_17: -5533946806876189940
+      Interfaz3-HamsterMaquia_18: -7605420200155013318
+      Interfaz3-HamsterMaquia_19: -6107390544790875981
+      Interfaz3-HamsterMaquia_2: 1941681427198470820
+      Interfaz3-HamsterMaquia_20: 1961300480698469170
+      Interfaz3-HamsterMaquia_21: 1798481414999551107
+      Interfaz3-HamsterMaquia_22: 9104182032212638721
+      Interfaz3-HamsterMaquia_23: 7048678775060186658
+      Interfaz3-HamsterMaquia_24: -1393604801941465697
+      Interfaz3-HamsterMaquia_25: 1083114515550691751
+      Interfaz3-HamsterMaquia_26: 9064104284411436209
+      Interfaz3-HamsterMaquia_27: -8157581216407463035
+      Interfaz3-HamsterMaquia_28: 497154039124989014
+      Interfaz3-HamsterMaquia_29: -267495101209551684
+      Interfaz3-HamsterMaquia_3: -8535549161816827075
+      Interfaz3-HamsterMaquia_30: 6535000333728859190
+      Interfaz3-HamsterMaquia_31: -1695222088321674401
+      Interfaz3-HamsterMaquia_32: 5043178345248615692
+      Interfaz3-HamsterMaquia_33: 4855002468510908373
+      Interfaz3-HamsterMaquia_34: 1368991273959267126
+      Interfaz3-HamsterMaquia_35: -3942771223817143865
+      Interfaz3-HamsterMaquia_36: 5031129954076002902
+      Interfaz3-HamsterMaquia_37: 9136284247166170048
+      Interfaz3-HamsterMaquia_38: 3769760863862894218
+      Interfaz3-HamsterMaquia_39: 6674072758864196530
+      Interfaz3-HamsterMaquia_4: -2904254641495601397
+      Interfaz3-HamsterMaquia_40: 8515661070359114157
+      Interfaz3-HamsterMaquia_41: 8890483782971017966
+      Interfaz3-HamsterMaquia_42: -43933770029707428
+      Interfaz3-HamsterMaquia_43: -7145927039269792449
+      Interfaz3-HamsterMaquia_44: 8721600974850665200
+      Interfaz3-HamsterMaquia_45: 3022022165650385215
+      Interfaz3-HamsterMaquia_46: 3960120393771564451
+      Interfaz3-HamsterMaquia_47: 5860747121744113609
+      Interfaz3-HamsterMaquia_48: -4731793658038353752
+      Interfaz3-HamsterMaquia_49: 2757289586546260303
+      Interfaz3-HamsterMaquia_5: 813625132782153433
+      Interfaz3-HamsterMaquia_50: 1893364383830099057
+      Interfaz3-HamsterMaquia_51: -274939851606163941
+      Interfaz3-HamsterMaquia_52: 6897777591339253801
+      Interfaz3-HamsterMaquia_53: -1409738274848387403
+      Interfaz3-HamsterMaquia_54: 553449732153353672
+      Interfaz3-HamsterMaquia_55: 8030578325396351601
+      Interfaz3-HamsterMaquia_6: -5163481971678116885
+      Interfaz3-HamsterMaquia_7: -7574049981895633950
+      Interfaz3-HamsterMaquia_8: -5568980347522758681
+      Interfaz3-HamsterMaquia_9: 2507562677261249916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
