@@ -75,7 +75,9 @@ public class MoveAbility : PlayerAbility
             keepRunSpeedInAir = input.RunHeld;
         }
 
-        float speed = maxGroundSpeed;
+        float speed =
+            maxGroundSpeed *
+            controller.MovementSpeedMultiplier;
 
         if (controller.IsGrounded)
         {
