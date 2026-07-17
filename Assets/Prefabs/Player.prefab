@@ -467,6 +467,10 @@ MonoBehaviour:
   deathFallDistance: 8
   deathFallDuration: 0.9
   flashInterval: 0.1
+  healColor: {r: 0, g: 1, b: 0, a: 1}
+  minBlinkSpeed: 3
+  maxBlinkSpeed: 18
+  healFlashDuration: 0.25
 --- !u!1 &7052848076182712280
 GameObject:
   m_ObjectHideFlags: 0
