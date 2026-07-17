@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DivinePepperGrinder
   m_EditorClassIdentifier: Assembly-CSharp::RangedWeaponData
   weaponName: Divine Pepper Grinder
-  icon: {fileID: 0}
+  icon: {fileID: 9064104284411436209, guid: 7b7d32fb992e33547b6011d8b32cea20, type: 3}
   groundAttackAnimation: Attack_Pepper
   airAttackAnimation: AirAttack_Pepper
   infiniteUses: 0

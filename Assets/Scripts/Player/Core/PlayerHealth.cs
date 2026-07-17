@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -50,6 +51,11 @@ public class PlayerHealth : MonoBehaviour
 
     private int enemyLayer;
 
+    //Agregados Por Diego
+
+    public static event Action<int , int> OnHealthChanged; //envia la vida actual y la maxima vida
+    public static event Action<int> OnLivesChanged; //envia la cantidad de vidas restantes
+
     #endregion
 
     #region Public Properties
@@ -91,6 +97,11 @@ public class PlayerHealth : MonoBehaviour
             currentLives =
                 PlayerDataManager.Instance.RemainingLives;
         }
+
+        //Agregado Por Diego
+        //Dispara alertas
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
+        OnLivesChanged?.Invoke(currentLives);
     }
 
     #endregion
@@ -122,6 +133,9 @@ public class PlayerHealth : MonoBehaviour
         StartCoroutine(HurtRoutine());
 
         StartInvulnerability();
+
+        //Agregado Por Diego
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
     public void Heal(int amount)
@@ -129,6 +143,9 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = Mathf.Min(
             currentHealth + amount,
             maxHealth);
+        
+        //Agregado Por Diego
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
     #endregion
@@ -155,6 +172,8 @@ public class PlayerHealth : MonoBehaviour
     private void RestoreHealth()
     {
         currentHealth = maxHealth;
+        //Agregado Por Diego
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
     private void StartInvulnerability()
@@ -214,6 +233,9 @@ public class PlayerHealth : MonoBehaviour
         controller.IsDead = true;
 
         currentLives--;
+
+        //Agregado Por Diego
+        OnLivesChanged?.Invoke(currentLives);
 
         PlayerDataManager.Instance.SetLives(
             currentLives);

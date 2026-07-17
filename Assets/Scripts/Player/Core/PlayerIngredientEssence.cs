@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class PlayerIngredientEssence : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class PlayerIngredientEssence : MonoBehaviour
     private int greenEssence;
 
     private int yellowEssence;
+
+    //Agregados Por Diego
+    public static event Action<IngredientEssenceType, int> OnEssenceChanged; //envia el tipo de esencia y la cantidad actual
 
     #endregion
 
@@ -45,6 +49,11 @@ public class PlayerIngredientEssence : MonoBehaviour
 
         yellowEssence =
             PlayerDataManager.Instance.YellowEssence;
+
+        //Agregado Por Diego
+        OnEssenceChanged?.Invoke(IngredientEssenceType.Red, redEssence);
+        OnEssenceChanged?.Invoke(IngredientEssenceType.Green, greenEssence);
+        OnEssenceChanged?.Invoke(IngredientEssenceType.Yellow, yellowEssence);
     }
 
     #endregion
@@ -144,6 +153,9 @@ public class PlayerIngredientEssence : MonoBehaviour
         $"Red: {redEssence} | " +
         $"Green: {greenEssence} | " +
         $"Yellow: {yellowEssence}");
+
+        //Agregado Por Diego
+        OnEssenceChanged?.Invoke(type, value);
     }
 
     #endregion

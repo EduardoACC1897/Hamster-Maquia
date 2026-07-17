@@ -1,8 +1,9 @@
 using UnityEngine;
-
+using System;
 public class WeaponManager : MonoBehaviour
 {
     #region References
+    public static event Action<WeaponData, int> OnWeaponChanged;
 
     [Header("Default Weapon")]
 
@@ -77,6 +78,9 @@ public class WeaponManager : MonoBehaviour
 
         remainingUses--;
 
+        //Agregado por Diego
+        OnWeaponChanged?.Invoke(currentWeapon, remainingUses);
+
         if (remainingUses <= 0)
         {
             RemoveCurrentWeapon();
@@ -92,6 +96,9 @@ public class WeaponManager : MonoBehaviour
         EquipWeapon(defaultWeapon);
 
         PlayerDataManager.Instance?.ClearWeapon();
+
+        //Agregado por Diego
+        OnWeaponChanged?.Invoke(currentWeapon, remainingUses);
     }
 
     private void EquipWeapon(
@@ -103,6 +110,9 @@ public class WeaponManager : MonoBehaviour
 
         currentWeapon = weapon;
         remainingUses = uses;
+
+        //Agregado por Diego
+        OnWeaponChanged?.Invoke(currentWeapon, remainingUses);
     }
 
     private void SaveCurrentWeapon()
