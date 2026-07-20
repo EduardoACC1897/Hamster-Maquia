@@ -42,17 +42,31 @@ public class PauseManager : MonoBehaviour
     {
         if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            if (juegoPausado)
+            if (CookingManager.Instance != null && CookingManager.Instance.isKitchenOpen)
             {
-                Reanudar();
+                return;
             }
-            else
-            {
-                Pausar();
-            }
+            AlternarMenuPausa();
         }
     }
+    public void AlternarMenuPausa()
+    {  
+        if (panelConfiguraciones != null && panelConfiguraciones.activeSelf)
+        {
+            CerrarConfiguraciones();
+            return;
+        }
 
+        
+        if (juegoPausado)
+        {
+            Reanudar();
+        }
+        else
+        {
+            Pausar();
+        }
+    }
     //Opciones de menu
     public void Pausar()
     {
