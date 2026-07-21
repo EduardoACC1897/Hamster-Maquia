@@ -19,6 +19,9 @@ public class RangedWeaponData : WeaponData
 
     [SerializeField] private bool floatWhileAttacking = true;
 
+    [SerializeField]
+    private bool lockMovementInAir = true;
+
     public float AttackDuration => attackDuration;
 
     public float AttackCooldown => attackCooldown;
@@ -26,4 +29,6 @@ public class RangedWeaponData : WeaponData
     public GameObject ProjectilePrefab => projectilePrefab;
 
     public bool FloatWhileAttacking => floatWhileAttacking;
+
+    public bool LockMovementInAir => lockMovementInAir;
 }
