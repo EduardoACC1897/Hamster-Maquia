@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Receta2
   m_EditorClassIdentifier: Assembly-CSharp::RecipeData
   recipeName: "Sopa de Champi\xF1ones con Esparragos"
-  recipeIcon: {fileID: 0}
+  recipeIcon: {fileID: -2010758527894040152, guid: 9bb59a50e7eeeee40b319426fbc92fff, type: 3}
+  tipoReceta: 1
   redEssenceCost: 5
   greenEssenceCost: 5
   blueEssenceCost: 5
   weaponToUnlock: {fileID: 11400000, guid: b765243fa4440c64bb2f5fac115476ab, type: 2}
+  healingAmount: 1

@@ -183,3 +183,4 @@ MonoBehaviour:
   speed: 12
   damage: 1
   lifeTime: 5
+  rotationOffset: -90

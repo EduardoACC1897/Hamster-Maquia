@@ -5,7 +5,7 @@ using System;
 public class Esparrago : Enemy
 {
     [Header("Configuracion de Ataque")]
-    [SerializeField] private Transform contenedorTemportal;
+    //[SerializeField] private Transform contenedorTemportal;
     [SerializeField] private GameObject proyectilPrefab;
     [SerializeField] private Transform spawnPoint;//spawn jabalina
     [SerializeField] private float attackCooldown = 2f;
@@ -13,9 +13,11 @@ public class Esparrago : Enemy
     [Range(0.1f, 5f)]
     [SerializeField] private float margenError = 1.5f; //mantener paralelo al piso
 
-    private bool canAttack = true;
-    private bool beInclinado = false;
+    [Header("Animaciones y Componentes")]
     [SerializeField] private Animator bodyAnimator;
+
+    private bool canAttack = true;
+    //private bool beInclinado = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected override void Start()
@@ -24,6 +26,15 @@ public class Esparrago : Enemy
         //Se mantiene estatico
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
+        if(bodyAnimator == null)
+        {
+            bodyAnimator = GetComponentInChildren<Animator>();
+            if(bodyAnimator == null )
+            {
+                Debug.LogError("Animator no asignado en el inspector ni encontrado en los hijos del objeto.");
+            }
+        }
     }
 
     // Update is called once per frame
@@ -34,9 +45,14 @@ public class Esparrago : Enemy
 
     protected override void OnPlayerDetected()
     {
+        base.OnPlayerDetected();
+
+        if(bodyAnimator != null)
+        {
+            bodyAnimator.SetBool("Emerging", true);
+        }
+
         if (playerTransform == null || !canAttack) return;
-        //apunta al jugador cuando esta cerca
-        seePlayer();
 
         //verificar si estan en la misma posicion
         float diferenciaY = Mathf.Abs(playerTransform.position.y - transform.position.y);
@@ -47,7 +63,7 @@ public class Esparrago : Enemy
         }            
         
     }
-
+    /*
     private void seePlayer()
     {
         if (beInclinado) return;
@@ -60,41 +76,41 @@ public class Esparrago : Enemy
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
     }
+    */
+
+    protected override void OnPlayerLost()
+    {
+        base.OnPlayerLost();
+
+        if (bodyAnimator != null)
+        {
+            bodyAnimator.SetBool("Emerging", false);
+        }          
+        
+    }
 
     private IEnumerator SecuenciaAtaque()
     {
         canAttack = false;
-        beInclinado = true;
-        //animacion de ataque
 
-        float anguloInclinacion = (transform.eulerAngles.y == 180) ? 15f : -15f;
-        contenedorTemportal.localRotation = Quaternion.Euler(0, transform.eulerAngles.y, anguloInclinacion);
-        Debug.Log("Inclinacion True");
+        // Breve tiempo de preparación antes del disparo
+        yield return new WaitForSeconds(0.3f);
 
-        yield return new WaitForSeconds(1.5f); //espera antes de disparar
-
-        //DISPARO
-        if(proyectilPrefab != null && spawnPoint != null) 
+        if (proyectilPrefab != null && spawnPoint != null && isPlayerNearby)
         {
-            // Dispara animación de ataque
-            bodyAnimator.SetTrigger("Attack");
+            if (bodyAnimator != null)
+            {
+                bodyAnimator.SetTrigger("Attack");
+            }
 
-            //Asegurar trayectoria de la jabalina paralela al piso
-            float rotacionY = (transform.eulerAngles.y == 180) ? 180f : 0f;
-            Quaternion rotacionParalelo = Quaternion.Euler(0, rotacionY, 0);
+            float dirX = (playerTransform.position.x >= transform.position.x) ? 1f : -1f;
+            Quaternion rotacionDisparo = (dirX < 0) ? Quaternion.Euler(0, 180, 0) : Quaternion.identity;
 
-            Instantiate(proyectilPrefab, spawnPoint.position, rotacionParalelo);
-            Debug.Log("Disparo true");
+            Instantiate(proyectilPrefab, spawnPoint.position, rotacionDisparo);
         }
-
-        //regresar posicion
-        contenedorTemportal.localRotation = Quaternion.identity;
-        beInclinado = false;
 
         yield return new WaitForSeconds(attackCooldown);
         canAttack = true;
-
-
     }
     //Dibujo de una linea horizontal para revisar el trayecto de la jabalina
     protected override void OnDrawGizmosSelected()

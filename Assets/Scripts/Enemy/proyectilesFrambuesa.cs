@@ -29,8 +29,9 @@ public class proyectilesFrambuesa : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.TryGetComponent(out PlayerHealth playerHealth))
         {
+            playerHealth.TakeDamage(1, transform.position);
             Debug.Log("Cheeks golpeado");
             Destroy(gameObject);
         }

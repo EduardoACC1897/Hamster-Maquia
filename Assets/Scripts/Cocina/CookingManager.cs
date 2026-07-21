@@ -58,8 +58,9 @@ public class CookingManager : MonoBehaviour
         
         PlayerDataManager data = PlayerDataManager.Instance;
         PlayerIngredientEssence playerEssence = FindAnyObjectByType<PlayerIngredientEssence>();
+        PlayerHealth playerHealth = FindAnyObjectByType<PlayerHealth>();
 
-        if(data == null)
+        if (data == null)
         {
             Debug.LogError("No se encontro el playerDataManager");
             return;
@@ -70,6 +71,16 @@ public class CookingManager : MonoBehaviour
             Debug.LogError("No se encontro el componente PlayerIngredientEssence");
             return;
         }
+
+        if(recipe.tipoReceta == RecipeType.Curacion && playerHealth != null)
+        {
+            if(playerHealth.CurrentHealth >= playerHealth.MaxHealth)
+            {
+                Debug.Log("No puedes curarte, tu salud ya esta al maximo.");
+                return;
+            }
+        }
+
         bool tieneSuficiente = playerEssence.HasEssence(IngredientEssenceType.Red, recipe.redEssenceCost) &&
                                playerEssence.HasEssence(IngredientEssenceType.Green, recipe.greenEssenceCost) &&
                                playerEssence.HasEssence(IngredientEssenceType.Yellow, recipe.blueEssenceCost);
@@ -81,9 +92,41 @@ public class CookingManager : MonoBehaviour
             playerEssence.RemoveEssence(IngredientEssenceType.Green, recipe.greenEssenceCost);
             playerEssence.RemoveEssence(IngredientEssenceType.Yellow, recipe.blueEssenceCost);
             // Desbloquear el arma asociada a la receta
+            if (recipe.tipoReceta == RecipeType.Curacion)
+            {
+                if (playerHealth != null)
+                {
+                    //curar 1 punto
+                    playerHealth.Heal(recipe.healingAmount);
 
-            data.SetWeapon(recipe.weaponToUnlock, 10); // Asignar 10 usos al arma desbloqueada
-            Debug.Log($"Receta {recipe.recipeName} cocinada con exito. Has obtenido el arma {recipe.weaponToUnlock.WeaponName}.");
+                    //activa efecto visual
+                    PlayerAnimation playerAnimation = playerHealth.GetComponent<PlayerAnimation>();
+
+                    if (playerAnimation != null)
+                    {
+                        playerAnimation.PlayHealCompleteEffect();
+                    }
+
+                    Debug.Log($"Receta {recipe.recipeName} cocinada con exito. Has curado {recipe.healingAmount} puntos de vida.");
+                }
+            }
+
+            else if(recipe.tipoReceta == RecipeType.Weapon)
+            {
+                WeaponManager weaponManager = FindAnyObjectByType<WeaponManager>();
+
+                if(weaponManager != null && recipe.weaponToUnlock != null)
+                {
+                    weaponManager.EquipWeapon(recipe.weaponToUnlock);
+
+                    Debug.Log($"Receta {recipe.recipeName} cocinada con exito. Has desbloqueado el arma {recipe.weaponToUnlock.WeaponName}.");
+                }
+                else
+                {
+                    Debug.LogError("No se pudo desbloquear el arma. Asegúrate de que WeaponManager y weaponToUnlock no sean nulos.");
+                }
+            }
+
         }
         else
         {

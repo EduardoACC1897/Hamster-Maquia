@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     [Header("Estadisticas base del enemigo")]
     [SerializeField] protected int maxHealth = 3;
     protected int currentHealth;
+
     [SerializeField] protected float moveSpeed = 2f;
 
     [Header("Deteccion de Cheeks")]
