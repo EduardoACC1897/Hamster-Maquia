@@ -1541,7 +1541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1694100858
 SpriteRenderer:
   serializedVersion: 3
@@ -2141,6 +2141,10 @@ PrefabInstance:
       propertyPath: initialSpawnPoint
       value: 
       objectReference: {fileID: 640258734}
+    - target: {fileID: 2373963288334261369, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: b765243fa4440c64bb2f5fac115476ab, type: 2}
     - target: {fileID: 4783851662103928880, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -34,15 +34,44 @@ public class MoveAbility : PlayerAbility
 
     #endregion
 
+    #region References
+
+    private WeaponManager weaponManager;
+
+    #endregion
+
+    #region Unity Messages
+
+    protected override void Awake()
+    {
+        base.Awake();
+
+        weaponManager = GetComponent<WeaponManager>();
+    }
+
+    #endregion
+
     #region Custom Update Methods
 
     public override void OnCustomFixedUpdate()
     {
-        if (controller.IsAttacking &&
-            controller.IsGrounded)
+        if (controller.IsAttacking)
         {
-            controller.HorizontalVelocity = 0f;
-            return;
+            bool blockMovement = controller.IsGrounded;
+
+            if (!blockMovement &&
+                weaponManager.CurrentWeapon != null &&
+                weaponManager.CurrentWeapon.IsRanged)
+            {
+                blockMovement =
+                    weaponManager.CurrentRangedWeapon.LockMovementInAir;
+            }
+
+            if (blockMovement)
+            {
+                controller.HorizontalVelocity = 0f;
+                return;
+            }
         }
 
         if (controller.IsHurt)
