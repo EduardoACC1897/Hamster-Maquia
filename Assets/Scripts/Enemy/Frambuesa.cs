@@ -19,22 +19,30 @@ public class Frambuesa : Enemy
     [SerializeField] private SpriteRenderer spriteRendererCuerpo;
     [SerializeField] private SpriteRenderer spriteRendererHojas;
 
-    private Rigidbody2D rb;
-    private Vector3 puntoA;
-    private Vector3 puntoB;
-    private Vector3 destinoActual;
+  
+    private Vector2 puntoA;
+    private Vector2 puntoB;
+    private Vector2 destinoActual;
     private float contadorAtaque = 0f;
 
     protected override void Start()
     {
         base.Start();
 
-        rb = GetComponent<Rigidbody2D>();
+        if (rb == null)
+        {
+            rb = GetComponent<Rigidbody2D>();
+        }
 
-        rb.gravityScale = 0f;
+        if (rb != null)
+        {
+            rb.bodyType = RigidbodyType2D.Kinematic;
+            rb.gravityScale = 0f;
+        }
 
-        puntoA = transform.position + Vector3.left * distanciaPatrulla;
-        puntoB = transform.position + Vector3.right * distanciaPatrulla;
+        Vector2 posInicial = transform.position;
+        puntoA = posInicial + Vector2.left * distanciaPatrulla;
+        puntoB = posInicial + Vector2.right * distanciaPatrulla;
 
         destinoActual = puntoB;
     }
@@ -42,7 +50,9 @@ public class Frambuesa : Enemy
     {
         base.Update();
 
-        if (!isPlayerNearby)
+        Debug.Log($"Jugador cerca? {isPlayerNearby}");
+
+        if (isPlayerNearby)
         {
             ApuntarJugador();
             ManejarAtaque();
@@ -59,10 +69,7 @@ public class Frambuesa : Enemy
         {
             Patrullaje();
         }
-        else
-        {
-            rb.linearVelocity = Vector2.zero;
-        }
+        
     }
 
     private void Patrullaje()
@@ -88,7 +95,7 @@ public class Frambuesa : Enemy
     }
     private void GirarSpriteHorizontal(float direccionX)
     {
-        if (direccionX != 0)
+        if (Mathf.Abs(direccionX) > 0.01f)
         {
             Vector3 scale = transform.localScale;
             scale.x = Mathf.Abs(scale.x) * (direccionX > 0 ? 1 : -1);
@@ -128,9 +135,9 @@ public class Frambuesa : Enemy
    
     protected override void OnDrawGizmosSelected()
     {
-        base.OnDrawGizmosSelected();
-        Vector3 posA = Application.isPlaying ? puntoA : transform.position + Vector3.left * distanciaPatrulla;
-        Vector3 posB = Application.isPlaying ? puntoB : transform.position + Vector3.right * distanciaPatrulla;
+        Vector2 posInicial = Application.isPlaying ? (puntoA + puntoB) / 2f : (Vector2)transform.position;
+        Vector2 posA = Application.isPlaying ? puntoA : posInicial + Vector2.left * distanciaPatrulla;
+        Vector2 posB = Application.isPlaying ? puntoB : posInicial + Vector2.right * distanciaPatrulla;
 
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(posA, 0.3f);

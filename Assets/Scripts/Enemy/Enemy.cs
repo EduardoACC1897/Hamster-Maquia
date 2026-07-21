@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected float moveSpeed = 2f;
 
     [Header("Deteccion de Cheeks")]
+    [SerializeField] protected float bufferRadius = 0.5f;
     [SerializeField] protected float detectionRadius = 4f;
     [SerializeField] protected LayerMask playerLayer;
 
@@ -42,7 +43,13 @@ public class Enemy : MonoBehaviour
     {
         if (playerTransform == null) return;
 
-        isPlayerNearby = Physics2D.OverlapCircle(transform.position, detectionRadius, playerLayer);
+        float distanciaAlJugador = Vector2.Distance(transform.position, playerTransform.position);
+
+        if (!isPlayerNearby)
+            
+            isPlayerNearby = (distanciaAlJugador <= detectionRadius);
+        else
+            isPlayerNearby = (distanciaAlJugador <= detectionRadius + bufferRadius);
 
         if (isPlayerNearby)
             OnPlayerDetected();
