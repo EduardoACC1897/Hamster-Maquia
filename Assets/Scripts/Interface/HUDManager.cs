@@ -17,8 +17,8 @@ public class HUDManager : MonoBehaviour
 
     [Header("Referencias de Barras de Esencia")]
     [SerializeField] private BarraEsenciaManager barraRoja;
-    [SerializeField] private BarraEsenciaManager barraVerde;
     [SerializeField] private BarraEsenciaManager barraAzul;
+    [SerializeField] private BarraEsenciaManager barraVerde;
 
     private void OnEnable()
     {
@@ -60,14 +60,14 @@ public class HUDManager : MonoBehaviour
         if (essence != null)
         {
             ActualizarEsencia(IngredientEssenceType.Red, essence.RedEssence);
+            ActualizarEsencia(IngredientEssenceType.Blue, essence.BlueEssence);
             ActualizarEsencia(IngredientEssenceType.Green, essence.GreenEssence);
-            ActualizarEsencia(IngredientEssenceType.Yellow, essence.YellowEssence);
         }
         else if (PlayerDataManager.Instance != null)
         {
             ActualizarEsencia(IngredientEssenceType.Red, PlayerDataManager.Instance.RedEssence);
+            ActualizarEsencia(IngredientEssenceType.Blue, PlayerDataManager.Instance.BlueEssence);
             ActualizarEsencia(IngredientEssenceType.Green, PlayerDataManager.Instance.GreenEssence);
-            ActualizarEsencia(IngredientEssenceType.Yellow, PlayerDataManager.Instance.YellowEssence);
         }
 
         // sincronizar el arma del jugador
@@ -107,11 +107,11 @@ public class HUDManager : MonoBehaviour
             case IngredientEssenceType.Red:
                 barraRoja.ActualizarCantidad(cantidad);
                 break;
+            case IngredientEssenceType.Blue:
+                barraAzul.ActualizarCantidad(cantidad);
+                break;
             case IngredientEssenceType.Green:
                 barraVerde.ActualizarCantidad(cantidad);
-                break;
-            case IngredientEssenceType.Yellow:
-                barraAzul.ActualizarCantidad(cantidad);
                 break;
         }
     }

@@ -16,9 +16,9 @@ public class PlayerIngredientEssence : MonoBehaviour
 
     private int redEssence;
 
-    private int greenEssence;
+    private int blueEssence;
 
-    private int yellowEssence;
+    private int greenEssence;
 
     //Agregados Por Diego
     public static event Action<IngredientEssenceType, int> OnEssenceChanged; //envia el tipo de esencia y la cantidad actual
@@ -29,9 +29,9 @@ public class PlayerIngredientEssence : MonoBehaviour
 
     public int RedEssence => redEssence;
 
-    public int GreenEssence => greenEssence;
+    public int BlueEssence => blueEssence;
 
-    public int YellowEssence => yellowEssence;
+    public int GreenEssence => greenEssence;
 
     public int MaxEssence => maxEssence;
 
@@ -44,16 +44,16 @@ public class PlayerIngredientEssence : MonoBehaviour
         redEssence =
             PlayerDataManager.Instance.RedEssence;
 
+        blueEssence =
+            PlayerDataManager.Instance.BlueEssence;
+
         greenEssence =
             PlayerDataManager.Instance.GreenEssence;
 
-        yellowEssence =
-            PlayerDataManager.Instance.YellowEssence;
-
         //Agregado Por Diego
         OnEssenceChanged?.Invoke(IngredientEssenceType.Red, redEssence);
-        OnEssenceChanged?.Invoke(IngredientEssenceType.Green, greenEssence);
-        OnEssenceChanged?.Invoke(IngredientEssenceType.Yellow, yellowEssence);
+        OnEssenceChanged?.Invoke(IngredientEssenceType.Blue, blueEssence);
+        OnEssenceChanged?.Invoke(IngredientEssenceType.Green, greenEssence); 
     }
 
     #endregion
@@ -115,11 +115,11 @@ public class PlayerIngredientEssence : MonoBehaviour
             case IngredientEssenceType.Red:
                 return redEssence;
 
+            case IngredientEssenceType.Blue:
+                return blueEssence;
+
             case IngredientEssenceType.Green:
                 return greenEssence;
-
-            case IngredientEssenceType.Yellow:
-                return yellowEssence;
         }
 
         return 0;
@@ -135,12 +135,12 @@ public class PlayerIngredientEssence : MonoBehaviour
                 redEssence = value;
                 break;
 
-            case IngredientEssenceType.Green:
-                greenEssence = value;
+            case IngredientEssenceType.Blue:
+                blueEssence = value;
                 break;
 
-            case IngredientEssenceType.Yellow:
-                yellowEssence = value;
+            case IngredientEssenceType.Green:
+                greenEssence = value;
                 break;
         }
 
@@ -151,8 +151,8 @@ public class PlayerIngredientEssence : MonoBehaviour
         Debug.Log(
         $"Essence -> " +
         $"Red: {redEssence} | " +
-        $"Green: {greenEssence} | " +
-        $"Yellow: {yellowEssence}");
+        $"Blue: {blueEssence} | " +
+        $"Green: {greenEssence}");
 
         //Agregado Por Diego
         OnEssenceChanged?.Invoke(type, value);

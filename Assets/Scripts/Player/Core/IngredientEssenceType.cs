@@ -1,6 +1,6 @@
 public enum IngredientEssenceType
 {
     Red,
-    Green,
-    Yellow
+    Blue,
+    Green
 }

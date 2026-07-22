@@ -82,15 +82,16 @@ public class CookingManager : MonoBehaviour
         }
 
         bool tieneSuficiente = playerEssence.HasEssence(IngredientEssenceType.Red, recipe.redEssenceCost) &&
-                               playerEssence.HasEssence(IngredientEssenceType.Green, recipe.greenEssenceCost) &&
-                               playerEssence.HasEssence(IngredientEssenceType.Yellow, recipe.blueEssenceCost);
+                               playerEssence.HasEssence(IngredientEssenceType.Blue, recipe.blueEssenceCost) &&
+                               playerEssence.HasEssence(IngredientEssenceType.Green, recipe.greenEssenceCost);
+        
 
         if (tieneSuficiente)
         {
             // Restar la esencia utilizada
             playerEssence.RemoveEssence(IngredientEssenceType.Red, recipe.redEssenceCost);
+            playerEssence.RemoveEssence(IngredientEssenceType.Blue, recipe.blueEssenceCost);
             playerEssence.RemoveEssence(IngredientEssenceType.Green, recipe.greenEssenceCost);
-            playerEssence.RemoveEssence(IngredientEssenceType.Yellow, recipe.blueEssenceCost);
             // Desbloquear el arma asociada a la receta
             if (recipe.tipoReceta == RecipeType.Curacion)
             {

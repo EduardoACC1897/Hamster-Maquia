@@ -6,15 +6,15 @@ public class CrouchAbility : PlayerAbility
 
     [Header("Standing Collider")]
 
-    [SerializeField] private Vector2 standingOffset = new(0f, 0f);
+    [SerializeField] private Vector2 standingOffset = new(0f, -0.1f);
 
-    [SerializeField] private Vector2 standingSize = new(0.5f, 2f);
+    [SerializeField] private Vector2 standingSize = new(0.8f, 1.8f);
 
     [Header("Crouching Collider")]
 
-    [SerializeField] private Vector2 crouchingOffset = new(0f, -0.5f);
+    [SerializeField] private Vector2 crouchingOffset = new(0f, -0.55f);
 
-    [SerializeField] private Vector2 crouchingSize = new(0.5f, 1f);
+    [SerializeField] private Vector2 crouchingSize = new(0.8f, 0.9f);
 
     [Header("Ceiling Check")]
 

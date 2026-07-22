@@ -37,10 +37,31 @@ public class DevMode : MonoBehaviour
     }
 
     /// <summary>
+    /// Modifica la esencia azul
+    /// </summary>
+    public void ModificarAzul(int cantidad)
+    {
+        
+        PlayerIngredientEssence essence = playerEssence();
+        if (essence != null)
+        {
+            if (cantidad > 0) essence.AddEssence(IngredientEssenceType.Blue, cantidad);
+            else essence.RemoveEssence(IngredientEssenceType.Blue, Mathf.Abs(cantidad));
+
+            Debug.Log($"[Modo Dios] Esencia Azul: {essence.BlueEssence}/10");
+        }
+        else
+        {
+            Debug.LogWarning("[Modo Dios] No se encontró el componente PlayerIngredientEssence en el objeto del jugador.");
+        }
+        
+    }
+
+    /// <summary>
     /// Modifica la esencia verde
     /// </summary>
     public void ModificarVerde(int cantidad)
-    {      
+    {
 
         PlayerIngredientEssence essence = playerEssence();
         if (essence != null)
@@ -54,27 +75,6 @@ public class DevMode : MonoBehaviour
         {
             Debug.LogWarning("[Modo Dios] No se encontró el componente PlayerIngredientEssence en el objeto del jugador.");
         }
-        
-    }
 
-    /// <summary>
-    /// Modifica la esencia azul
-    /// </summary>
-    public void ModificarAzul(int cantidad)
-    {
-        
-        PlayerIngredientEssence essence = playerEssence();
-        if (essence != null)
-        {
-            if (cantidad > 0) essence.AddEssence(IngredientEssenceType.Yellow, cantidad);
-            else essence.RemoveEssence(IngredientEssenceType.Yellow, Mathf.Abs(cantidad));
-
-            Debug.Log($"[Modo Dios] Esencia Azul: {essence.YellowEssence}/10");
-        }
-        else
-        {
-            Debug.LogWarning("[Modo Dios] No se encontró el componente PlayerIngredientEssence en el objeto del jugador.");
-        }
-        
     }
 }

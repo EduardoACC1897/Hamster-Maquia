@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: 3938273832419313087, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -234,7 +234,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -244,7 +244,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.5, y: 2}
+  m_Size: {x: 0.8, y: 1.8}
   m_EdgeRadius: 0
 --- !u!114 &7725773610250801615
 MonoBehaviour:
@@ -355,10 +355,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 633ae4ce2eaecf64c899c59959c4f4b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrouchAbility
-  standingOffset: {x: 0, y: 0}
-  standingSize: {x: 0.5, y: 2}
-  crouchingOffset: {x: 0, y: -0.5}
-  crouchingSize: {x: 0.5, y: 1}
+  standingOffset: {x: 0, y: -0.1}
+  standingSize: {x: 0.8, y: 1.8}
+  crouchingOffset: {x: 0, y: -0.55}
+  crouchingSize: {x: 0.8, y: 0.9}
   ceilingCheckDistance: 0.1
 --- !u!114 &2373963288334261369
 MonoBehaviour:

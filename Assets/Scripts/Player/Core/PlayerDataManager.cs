@@ -28,11 +28,11 @@ public class PlayerDataManager : MonoBehaviour
     public int RedEssence =>
     playerData.RedEssence;
 
+    public int BlueEssence =>
+        playerData.BlueEssence;
+
     public int GreenEssence =>
         playerData.GreenEssence;
-
-    public int YellowEssence =>
-        playerData.YellowEssence;
 
     #endregion
 
@@ -85,12 +85,12 @@ public class PlayerDataManager : MonoBehaviour
                 playerData.RedEssence = amount;
                 break;
 
-            case IngredientEssenceType.Green:
-                playerData.GreenEssence = amount;
+            case IngredientEssenceType.Blue:
+                playerData.BlueEssence = amount;
                 break;
 
-            case IngredientEssenceType.Yellow:
-                playerData.YellowEssence = amount;
+            case IngredientEssenceType.Green:
+                playerData.GreenEssence = amount;
                 break;
         }
     }

@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 48210649}
   - component: {fileID: 48210647}
   - component: {fileID: 48210648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3943,7 +3943,7 @@ GameObject:
   - component: {fileID: 801335118}
   - component: {fileID: 801335117}
   - component: {fileID: 801335116}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Frambuesa
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -4445,7 +4445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 889573388}
   - component: {fileID: 889573389}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Proyectil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5541,8 +5541,8 @@ MonoBehaviour:
   armaImagen: {fileID: 398890333}
   fondoAmarilloArma: {fileID: 40142649}
   barraRoja: {fileID: 669378107}
-  barraVerde: {fileID: 1052303390}
   barraAzul: {fileID: 35977931}
+  barraVerde: {fileID: 1052303390}
 --- !u!1 &1093928922
 GameObject:
   m_ObjectHideFlags: 0
@@ -6795,7 +6795,7 @@ GameObject:
   - component: {fileID: 1497448265}
   - component: {fileID: 1497448267}
   - component: {fileID: 1497448266}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Hojas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8768,7 +8768,7 @@ GameObject:
   - component: {fileID: 2031848779}
   - component: {fileID: 2031848780}
   - component: {fileID: 2031848781}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Cuerpo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9409,6 +9409,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1033761352458118282, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
+      propertyPath: initialSpawnPoint
+      value: 
+      objectReference: {fileID: 637744079}
     - target: {fileID: 4783851662103928880, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.38991

@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa2db5a39bc5d74996825bca99d6b89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IngredientEssenceOrb
-  essenceType: 1
+  essenceType: 2
   amount: 1
   autoAbsorbDelay: 3
   magnetRadius: 2
