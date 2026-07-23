@@ -129,6 +129,19 @@ public class PlayerSpriteAnimator : MonoBehaviour
     {
         UpdateEssenceLevel();
 
+        if (controller.IsHealing)
+        {
+            ChangeState(PlayerAnimationState.Idle);
+
+            StopAnimation();
+
+            idleTimer = 0f;
+
+            ShowIdleFrameZero();
+
+            return;
+        }
+
         PlayerAnimationState state =
             GetMovementState();
 

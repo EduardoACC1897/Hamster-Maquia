@@ -122,6 +122,8 @@ public class AttackAbility : PlayerAbility
 
         float timer = 0f;
 
+        bool hitSomething = false;
+
         while (timer < weapon.HitboxActiveTime)
         {
             if (isAirAttack &&
@@ -130,7 +132,12 @@ public class AttackAbility : PlayerAbility
                 break;
             }
 
-            if (CheckMeleeHit(isAirAttack, weapon))
+            hitSomething =
+                CheckMeleeHit(
+                    isAirAttack,
+                    weapon);
+
+            if (hitSomething)
             {
                 break;
             }
@@ -145,6 +152,11 @@ public class AttackAbility : PlayerAbility
             yield return WaitAttackDuration(
                 weapon.AttackDuration - timer,
                 isAirAttack);
+        }
+
+        if (hitSomething)
+        {
+            weaponManager.ConsumeOneUse();
         }
     }
 
@@ -179,11 +191,11 @@ public class AttackAbility : PlayerAbility
             }
         }
 
-        weaponManager.ConsumeOneUse();
-
         yield return WaitAttackDuration(
             weapon.AttackDuration,
             isAirAttack);
+
+        weaponManager.ConsumeOneUse();
 
         if (isAirAttack &&
             weapon.FloatWhileAttacking)
@@ -259,11 +271,6 @@ public class AttackAbility : PlayerAbility
                 new Vector2(
                     controller.TargetVelocity.x,
                     weapon.AirBounceForce));
-        }
-
-        if (hitSomething)
-        {
-            weaponManager.ConsumeOneUse();
         }
 
         return hitSomething;

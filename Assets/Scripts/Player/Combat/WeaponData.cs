@@ -8,10 +8,6 @@ public abstract class WeaponData : ScriptableObject
 
     [SerializeField] private Sprite icon;
 
-    [SerializeField] private string groundAttackAnimation = "Attack";
-
-    [SerializeField] private string airAttackAnimation = "AirAttack";
-
     [Header("Uses")]
 
     [SerializeField] private bool infiniteUses = true;
@@ -25,10 +21,6 @@ public abstract class WeaponData : ScriptableObject
     public string WeaponName => weaponName;
 
     public Sprite Icon => icon;
-
-    public string GroundAttackAnimation => groundAttackAnimation;
-
-    public string AirAttackAnimation => airAttackAnimation;
 
     public bool InfiniteUses => infiniteUses;
 

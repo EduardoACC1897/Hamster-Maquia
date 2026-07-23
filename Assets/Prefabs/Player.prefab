@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   groundCheck: {fileID: 3434208997856882300}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 0.4
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -612,6 +612,16 @@ MonoBehaviour:
   - Frames:
     - {fileID: 1313398962157438562, guid: 627b71e1363330047a5486dcbb29e3cf, type: 3}
     FPS: 8
+  deadAnimations:
+  - Frames:
+    - {fileID: 31544678185269372, guid: c17070e941484d446b8676b04a518d44, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: -7868676809038854759, guid: 05b83a1a656f825489ba9eda000290a1, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: -691371424132063458, guid: 00f3fb14ed05aa747a34637530e5b059, type: 3}
+    FPS: 8
 --- !u!1 &7052848076182712280
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,7 +647,7 @@ Transform:
   m_GameObject: {fileID: 7052848076182712280}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
