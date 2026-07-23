@@ -18,6 +18,10 @@ public abstract class WeaponData : ScriptableObject
 
     [SerializeField] private int maxUses = 0;
 
+    [Header("Animation")]
+
+    [SerializeField] private WeaponAnimationSet animations;
+
     public string WeaponName => weaponName;
 
     public Sprite Icon => icon;
@@ -33,4 +37,6 @@ public abstract class WeaponData : ScriptableObject
     public bool IsMelee => this is MeleeWeaponData;
 
     public bool IsRanged => this is RangedWeaponData;
+
+    public WeaponAnimationSet Animations => animations;
 }

@@ -74,6 +74,16 @@ public class PlayerSpriteAnimator : MonoBehaviour
 
     #endregion
 
+    #region Dead
+
+    [Header("Dead")]
+
+    [SerializeField]
+    private SpriteAnimation[] deadAnimations =
+        new SpriteAnimation[3];
+
+    #endregion
+
     #region State
 
     private int currentEssenceLevel;
@@ -89,6 +99,8 @@ public class PlayerSpriteAnimator : MonoBehaviour
 
     private bool animationPlaying;
 
+    private WeaponManager weaponManager;
+
     #endregion
 
     #region Unity Messages
@@ -103,6 +115,9 @@ public class PlayerSpriteAnimator : MonoBehaviour
 
         input =
             GetComponent<PlayerInputHandler>();
+
+        weaponManager =
+            GetComponent<WeaponManager>();
 
         currentEssenceLevel =
             playerEssence.EssenceLevel;
@@ -142,6 +157,18 @@ public class PlayerSpriteAnimator : MonoBehaviour
             case PlayerAnimationState.JumpDown:
                 UpdateJumpDown();
                 break;
+
+            case PlayerAnimationState.Attack:
+                UpdateAttack();
+                break;
+
+            case PlayerAnimationState.AirAttack:
+                UpdateAirAttack();
+                break;
+
+            case PlayerAnimationState.Dead:
+                UpdateDead();
+                break;
         }
     }
 
@@ -171,7 +198,7 @@ public class PlayerSpriteAnimator : MonoBehaviour
         }
 
         if (!PlayAnimation(
-            idleAnimations,
+            GetAnimation(idleAnimations),
             false))
         {
             return;
@@ -253,6 +280,32 @@ public class PlayerSpriteAnimator : MonoBehaviour
 
     #endregion
 
+    #region Attack
+
+    private void UpdateAttack()
+    {
+        UpdateOneShotAnimation(
+            PlayerAnimationState.Attack);
+    }
+
+    private void UpdateAirAttack()
+    {
+        UpdateOneShotAnimation(
+            PlayerAnimationState.AirAttack);
+    }
+
+    #endregion
+
+    #region Dead
+
+    private void UpdateDead()
+    {
+        UpdateStaticAnimation(
+            PlayerAnimationState.Dead);
+    }
+
+    #endregion
+
     #region Helpers
 
     private void UpdateEssenceLevel()
@@ -309,12 +362,9 @@ public class PlayerSpriteAnimator : MonoBehaviour
     }
 
     private bool PlayAnimation(
-        SpriteAnimation[] animations,
-        bool loop)
+    SpriteAnimation animation,
+    bool loop)
     {
-        SpriteAnimation animation =
-            GetAnimation(animations);
-
         if (animation == null)
             return true;
 
@@ -384,6 +434,19 @@ public class PlayerSpriteAnimator : MonoBehaviour
 
     private PlayerAnimationState GetMovementState()
     {
+        if (controller.IsDead)
+        {
+            return PlayerAnimationState.Dead;
+        }
+
+        if (controller.IsAttacking)
+        {
+            if (controller.IsGrounded)
+                return PlayerAnimationState.Attack;
+
+            return PlayerAnimationState.AirAttack;
+        }
+
         if (!controller.IsGrounded)
         {
             if (controller.VerticalVelocity > 0f)
@@ -428,7 +491,7 @@ public class PlayerSpriteAnimator : MonoBehaviour
     SpriteAnimation[] animations)
     {
         PlayAnimation(
-            animations,
+            GetAnimation(animations),
             true);
     }
 
@@ -461,9 +524,62 @@ public class PlayerSpriteAnimator : MonoBehaviour
             case PlayerAnimationState.JumpDown:
                 return GetAnimation(jumpDownAnimations);
 
+            case PlayerAnimationState.Attack:
+                return GetAttackAnimation(false);
+
+            case PlayerAnimationState.AirAttack:
+                return GetAttackAnimation(true);
+
+            case PlayerAnimationState.Dead:
+                return GetAnimation(deadAnimations);
+
             default:
                 return null;
         }
+    }
+
+    private SpriteAnimation GetAttackAnimation(
+    bool airAttack)
+    {
+        if (weaponManager == null)
+            return null;
+
+        WeaponData weapon =
+            weaponManager.CurrentWeapon;
+
+        if (weapon == null)
+            return null;
+
+        WeaponAnimationSet animations =
+            weapon.Animations;
+
+        if (animations == null)
+            return null;
+
+        return GetAnimation(
+            airAttack
+                ? animations.airAnimations
+                : animations.groundAnimations);
+    }
+
+    private void UpdateOneShotAnimation(
+    PlayerAnimationState state)
+    {
+        ChangeState(state);
+
+        if (!animationPlaying)
+        {
+            StartAnimation();
+        }
+
+        if (!PlayAnimation(
+            GetStateAnimation(currentState),
+            false))
+        {
+            return;
+        }
+
+        StopAnimation();
     }
 
     #endregion

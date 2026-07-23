@@ -7,9 +7,9 @@ public class RangedWeaponData : WeaponData
 {
     [Header("Attack")]
 
-    [SerializeField] private float attackDuration = 0.2f;
+    [SerializeField] private float attackDuration = 0.4f;
 
-    [SerializeField] private float attackCooldown = 0.15f;
+    [SerializeField] private float attackCooldown = 0.3f;
 
     [Header("Projectile")]
 

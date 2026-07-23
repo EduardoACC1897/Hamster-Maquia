@@ -191,6 +191,17 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateFacingDirection(float moveInput)
     {
+        if (IsAttacking &&
+            IsGrounded)
+        {
+            return;
+        }
+
+        if (IsDead)
+        {
+            return;
+        }
+
         int newDirection = FacingDirection;
 
         if (moveInput > 0.01f)

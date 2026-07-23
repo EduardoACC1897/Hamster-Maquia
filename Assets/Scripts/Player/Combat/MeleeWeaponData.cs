@@ -7,15 +7,15 @@ public class MeleeWeaponData : WeaponData
 {
     [Header("General")]
 
-    [SerializeField] private float attackDuration = 0.3f;
+    [SerializeField] private float attackDuration = 0.6f;
 
-    [SerializeField] private float attackCooldown = 0.2f;
+    [SerializeField] private float attackCooldown = 0.4f;
 
-    [SerializeField] private float hitboxActiveTime = 0.2f;
+    [SerializeField] private float hitboxActiveTime = 0.4f;
 
     [Header("Ground Attack")]
 
-    [SerializeField] private float attackRange = 0.8f;
+    [SerializeField] private float attackRange = 0.4f;
 
     [SerializeField] private float lungeForce = 8f;
 
