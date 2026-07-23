@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 1033761352458118282}
   - component: {fileID: 1591498403247794919}
   - component: {fileID: 193852089553128716}
+  - component: {fileID: 770278210022169742}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -471,6 +472,146 @@ MonoBehaviour:
   minBlinkSpeed: 3
   maxBlinkSpeed: 18
   healFlashDuration: 0.25
+--- !u!114 &770278210022169742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254897287952704112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d40f9e05881a874ebbd957fbf1f1782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpriteAnimator
+  spriteRenderer: {fileID: 8864750830357439176}
+  idleAnimations:
+  - Frames:
+    - {fileID: 3938273832419313087, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
+    - {fileID: 8123540031342016967, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
+    - {fileID: -3219281985580163399, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
+    - {fileID: 793553908336150850, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
+    - {fileID: 8308741009985194755, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
+    - {fileID: 1495554341634962517, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
+    - {fileID: 1197706018330331198, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
+    - {fileID: 6048234120575852675, guid: a00aae19521dfef4ebbe49d5f450aac0, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: 8875657187739552248, guid: 01b18dfe25d881c4fa8bd891adc91099, type: 3}
+    - {fileID: 3593632430212204206, guid: 01b18dfe25d881c4fa8bd891adc91099, type: 3}
+    - {fileID: -7998895027702090000, guid: 01b18dfe25d881c4fa8bd891adc91099, type: 3}
+    - {fileID: -4744517131694939424, guid: 01b18dfe25d881c4fa8bd891adc91099, type: 3}
+    - {fileID: 1032761494237563412, guid: 01b18dfe25d881c4fa8bd891adc91099, type: 3}
+    - {fileID: -1352034491691473796, guid: 01b18dfe25d881c4fa8bd891adc91099, type: 3}
+    - {fileID: -8835948712357942750, guid: 01b18dfe25d881c4fa8bd891adc91099, type: 3}
+    - {fileID: -6926385589648372141, guid: 01b18dfe25d881c4fa8bd891adc91099, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: 5982829508095866430, guid: 739fb172a56e64a429e5ae655d14ea9a, type: 3}
+    - {fileID: 4010309202503798261, guid: 739fb172a56e64a429e5ae655d14ea9a, type: 3}
+    - {fileID: 4592530016499316753, guid: 739fb172a56e64a429e5ae655d14ea9a, type: 3}
+    - {fileID: -7918298084960389654, guid: 739fb172a56e64a429e5ae655d14ea9a, type: 3}
+    - {fileID: 3498036741192708889, guid: 739fb172a56e64a429e5ae655d14ea9a, type: 3}
+    - {fileID: -7103058247981061309, guid: 739fb172a56e64a429e5ae655d14ea9a, type: 3}
+    - {fileID: 2364086851561335350, guid: 739fb172a56e64a429e5ae655d14ea9a, type: 3}
+    - {fileID: -9172524937011092844, guid: 739fb172a56e64a429e5ae655d14ea9a, type: 3}
+    FPS: 8
+  idleDelay: 3
+  walkAnimations:
+  - Frames:
+    - {fileID: -3779738665096853696, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: -2699330027780302208, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: -2064533515425021368, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: -8056063576934776613, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: -8161591106024922011, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: -9017366579356132519, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: -993246314942053019, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: 409530725362867062, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: -2250594002793306264, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    - {fileID: 133679470810178082, guid: 6835663bd96c24046bbb2094d0d0b640, type: 3}
+    FPS: 12
+  - Frames:
+    - {fileID: 2614739776759206149, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: 6148295632181838159, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: -3467070842230015466, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: 1299281777179892787, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: -3185565951988625620, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: 4404087709878262595, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: -3653895699567630971, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: -5295082449154904043, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: -2854830394813429676, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    - {fileID: 5288727282179335360, guid: 7bcce221c108a0c4a8b3fc177bf0fef1, type: 3}
+    FPS: 12
+  - Frames:
+    - {fileID: 3706058570728544931, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: -539914408029181767, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: 8824092864137554572, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: -504506032688253065, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: -2794422852347560409, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: -4110702831827509666, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: 3685843317637968756, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: 2411334795258970112, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: 463822874813183568, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    - {fileID: -6233527590143913472, guid: 124881a88692dc34d9e22c3aff724ddf, type: 3}
+    FPS: 12
+  runAnimations:
+  - Frames:
+    - {fileID: -8664769462617338292, guid: a5d92ce8901ff7f499415191f2bda0e8, type: 3}
+    - {fileID: 4408934250432879916, guid: a5d92ce8901ff7f499415191f2bda0e8, type: 3}
+    - {fileID: 7732528413407079498, guid: a5d92ce8901ff7f499415191f2bda0e8, type: 3}
+    - {fileID: -4645064170930632963, guid: a5d92ce8901ff7f499415191f2bda0e8, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: -6895486314811091760, guid: 65e690d7dd043584698bc89d16bcbaf7, type: 3}
+    - {fileID: 4498513660207653596, guid: 65e690d7dd043584698bc89d16bcbaf7, type: 3}
+    - {fileID: 4148270108709993726, guid: 65e690d7dd043584698bc89d16bcbaf7, type: 3}
+    - {fileID: 3930518900717897666, guid: 65e690d7dd043584698bc89d16bcbaf7, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: 2962875763314514689, guid: ed922630a5b200f44990417f98b22f25, type: 3}
+    - {fileID: 7078979086717622911, guid: ed922630a5b200f44990417f98b22f25, type: 3}
+    - {fileID: 477612233778428719, guid: ed922630a5b200f44990417f98b22f25, type: 3}
+    - {fileID: 7707858996760698450, guid: ed922630a5b200f44990417f98b22f25, type: 3}
+    FPS: 8
+  crouchAnimations:
+  - Frames:
+    - {fileID: 2955633336162386997, guid: c17070e941484d446b8676b04a518d44, type: 3}
+    - {fileID: -4246321291379373663, guid: c17070e941484d446b8676b04a518d44, type: 3}
+    - {fileID: 31544678185269372, guid: c17070e941484d446b8676b04a518d44, type: 3}
+    - {fileID: 5162553932436598021, guid: c17070e941484d446b8676b04a518d44, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: 8207274890653650492, guid: 05b83a1a656f825489ba9eda000290a1, type: 3}
+    - {fileID: 1503075818404446909, guid: 05b83a1a656f825489ba9eda000290a1, type: 3}
+    - {fileID: -7868676809038854759, guid: 05b83a1a656f825489ba9eda000290a1, type: 3}
+    - {fileID: -6892959046902629614, guid: 05b83a1a656f825489ba9eda000290a1, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: 2529439064825597068, guid: 00f3fb14ed05aa747a34637530e5b059, type: 3}
+    - {fileID: 5663844382917893892, guid: 00f3fb14ed05aa747a34637530e5b059, type: 3}
+    - {fileID: -691371424132063458, guid: 00f3fb14ed05aa747a34637530e5b059, type: 3}
+    - {fileID: 6948154200502026211, guid: 00f3fb14ed05aa747a34637530e5b059, type: 3}
+    FPS: 8
+  jumpUpAnimations:
+  - Frames:
+    - {fileID: -6947936327362527173, guid: 2ce3976c438e74041a5a591ea7071ee1, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: -8288389675550798941, guid: 3036ffc873f20a2489e2b5be07db4c2b, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: -706564115747974847, guid: f8423528d56181544980a9693fec58c3, type: 3}
+    FPS: 8
+  jumpDownAnimations:
+  - Frames:
+    - {fileID: -4302992617814872420, guid: 8f8b02a23cf54cf4eba3d770b087f9e9, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: -6511672608223499077, guid: a3708dfd723167c419b327033a4a5c14, type: 3}
+    FPS: 8
+  - Frames:
+    - {fileID: 1313398962157438562, guid: 627b71e1363330047a5486dcbb29e3cf, type: 3}
+    FPS: 8
 --- !u!1 &7052848076182712280
 GameObject:
   m_ObjectHideFlags: 0

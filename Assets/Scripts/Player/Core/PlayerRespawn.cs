@@ -50,8 +50,13 @@ public class PlayerRespawn : MonoBehaviour
         if (currentRespawnPoint == null)
             return;
 
-        transform.position =
+        Vector3 position =
             currentRespawnPoint.position;
+
+        position.z =
+            transform.position.z;
+
+        transform.position = position;
 
         controller.ApplyImpulse(
             Vector2.zero);

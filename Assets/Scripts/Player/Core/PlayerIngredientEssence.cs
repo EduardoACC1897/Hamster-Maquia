@@ -35,6 +35,11 @@ public class PlayerIngredientEssence : MonoBehaviour
 
     public int MaxEssence => maxEssence;
 
+    public int TotalEssence =>
+        redEssence +
+        blueEssence +
+        greenEssence;
+
     #endregion
 
     #region Unity Messages
@@ -101,6 +106,22 @@ public class PlayerIngredientEssence : MonoBehaviour
         int amount)
     {
         return GetEssence(type) >= amount;
+    }
+
+    public int EssenceLevel
+    {
+        get
+        {
+            int total = TotalEssence;
+
+            if (total <= 10)
+                return 0;
+
+            if (total <= 20)
+                return 1;
+
+            return 2;
+        }
     }
 
     #endregion

@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
 
     private readonly List<PlayerAbility> abilities = new();
 
+    private PlayerInputHandler input;
+
     #endregion
 
     #region Settings
@@ -52,6 +54,8 @@ public class PlayerController : MonoBehaviour
     public bool IsGravityPaused { get; set; }
 
     public float MovementSpeedMultiplier { get; private set; } = 1f;
+
+    public int FacingDirection { get; private set; } = 1;
 
     #endregion
 
@@ -91,10 +95,14 @@ public class PlayerController : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
 
         abilities.AddRange(GetComponents<PlayerAbility>());
+
+        input = GetComponent<PlayerInputHandler>();
     }
 
     private void Update()
     {
+        UpdateFacingDirection(input.MoveX);
+
         for (int i = 0; i < abilities.Count; i++)
         {
             abilities[i].OnCustomUpdate();
@@ -179,6 +187,31 @@ public class PlayerController : MonoBehaviour
     public void ResetMovementSpeedMultiplier()
     {
         MovementSpeedMultiplier = 1f;
+    }
+
+    private void UpdateFacingDirection(float moveInput)
+    {
+        int newDirection = FacingDirection;
+
+        if (moveInput > 0.01f)
+        {
+            newDirection = 1;
+        }
+        else if (moveInput < -0.01f)
+        {
+            newDirection = -1;
+        }
+
+        if (newDirection == FacingDirection)
+            return;
+
+        FacingDirection = newDirection;
+
+        Vector3 scale = transform.localScale;
+
+        scale.x = Mathf.Abs(scale.x) * FacingDirection;
+
+        transform.localScale = scale;
     }
 
     #endregion
