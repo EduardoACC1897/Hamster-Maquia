@@ -435,7 +435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74145a558a1f673459de7f904ff2abc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
-  initialSpawnPoint: {fileID: 0}
+  SpawnPoint: {fileID: 0}
+  virtualCamera: {fileID: 0}
+  transition: {fileID: 0}
 --- !u!114 &1591498403247794919
 MonoBehaviour:
   m_ObjectHideFlags: 0
