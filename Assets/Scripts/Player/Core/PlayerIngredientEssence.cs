@@ -81,6 +81,8 @@ public class PlayerIngredientEssence : MonoBehaviour
                 currentValue + amount,
                 maxEssence));
 
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.sonidoRecogerEsencia);
+
         return true;
     }
 

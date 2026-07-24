@@ -32,10 +32,23 @@ public class PauseManager : MonoBehaviour
         sliderVolumen.value = volumenGuardado;
         AudioListener.volume = volumenGuardado;
 
+        sliderVolumen.onValueChanged.AddListener(CambiarVolumen);
         //estado daltonito
         bool daltonismoActivo = PlayerPrefs.GetInt("Daltonismo", 0) == 1;
         daltonismo.isOn = daltonismoActivo;
 
+    }
+
+    private void OnDestroy()
+    {
+        if(sliderVolumen != null)
+        {
+            sliderVolumen.onValueChanged.RemoveListener(CambiarVolumen);
+        }
+        if(daltonismo != null)
+        {
+            daltonismo.onValueChanged.RemoveListener(CambiarModoDaltonismo);
+        }
     }
 
     void Update()
@@ -108,6 +121,7 @@ public class PauseManager : MonoBehaviour
     {
         AudioListener.volume = valor;
         PlayerPrefs.SetFloat("VolumenJuego", valor);
+        PlayerPrefs.Save();
     }
 
     public void CambiarModoDaltonismo(bool activado)

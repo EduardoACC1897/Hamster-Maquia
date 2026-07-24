@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeleeWeaponData
   weaponName: Divine Chef Spoon
   icon: {fileID: 1893364383830099057, guid: 7b7d32fb992e33547b6011d8b32cea20, type: 3}
-  groundAttackAnimation: Attack_Spoon
-  airAttackAnimation: AirAttack_Spoon
   infiniteUses: 1
   maxUses: 0
   animations:
@@ -69,6 +67,7 @@ MonoBehaviour:
       - {fileID: -3505772974582730762, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
       - {fileID: 2072153873004166235, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
       FPS: 28
+  attackSound: {fileID: 8300000, guid: f520cf846f8d5fc4a8bbd7a27e0f4eb7, type: 3}
   attackDuration: 0.3
   attackCooldown: 0.2
   hitboxActiveTime: 0.2

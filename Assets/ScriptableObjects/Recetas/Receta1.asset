@@ -15,8 +15,8 @@ MonoBehaviour:
   recipeName: Tarta de Bayas
   recipeIcon: {fileID: -7473685574342622314, guid: a2fa5ea1cc4a4334e911e5bf6e1927ef, type: 3}
   tipoReceta: 0
-  redEssenceCost: 4
-  greenEssenceCost: 4
+  redEssenceCost: 6
+  greenEssenceCost: 2
   blueEssenceCost: 4
   weaponToUnlock: {fileID: 11400000, guid: 81a96ce47e8044341b4208a64f86d489, type: 2}
   healingAmount: 0

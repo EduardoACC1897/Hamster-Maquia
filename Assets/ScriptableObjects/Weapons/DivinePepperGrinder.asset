@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RangedWeaponData
   weaponName: Divine Pepper Grinder
   icon: {fileID: 9064104284411436209, guid: 7b7d32fb992e33547b6011d8b32cea20, type: 3}
-  groundAttackAnimation: Attack_Pepper
-  airAttackAnimation: AirAttack_Pepper
   infiniteUses: 0
   maxUses: 20
   animations:
@@ -51,6 +49,7 @@ MonoBehaviour:
       - {fileID: -4866405037142579034, guid: 3ed1d6b5d650f8f41b2e72f956229b5c, type: 3}
       - {fileID: 6480879305109646229, guid: 3ed1d6b5d650f8f41b2e72f956229b5c, type: 3}
       FPS: 8
+  attackSound: {fileID: 8300000, guid: 9e435154e90520649afb14e4198dee31, type: 3}
   attackDuration: 0.4
   attackCooldown: 0.3
   projectilePrefab: {fileID: 8073215236059577323, guid: 18edce664de110546918082e8a2f271c, type: 3}

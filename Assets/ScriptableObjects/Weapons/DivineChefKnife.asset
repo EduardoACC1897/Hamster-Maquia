@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeleeWeaponData
   weaponName: Divine Chef Knife
   icon: {fileID: 553449732153353672, guid: 7b7d32fb992e33547b6011d8b32cea20, type: 3}
-  groundAttackAnimation: Attack_Knife
-  airAttackAnimation: AirAttack_Knife
   infiniteUses: 0
   maxUses: 20
   animations:
@@ -78,6 +76,7 @@ MonoBehaviour:
       - {fileID: -2008466784904589139, guid: 27f0af99d1a3d8b49b54e0ec65a65d54, type: 3}
       - {fileID: -678286292827075188, guid: 27f0af99d1a3d8b49b54e0ec65a65d54, type: 3}
       FPS: 28
+  attackSound: {fileID: 8300000, guid: 0c1abef5d38d7f149a10887b4ef22cbf, type: 3}
   attackDuration: 0.3
   attackCooldown: 0.2
   hitboxActiveTime: 0.2

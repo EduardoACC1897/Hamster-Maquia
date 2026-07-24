@@ -18,6 +18,8 @@ public abstract class WeaponData : ScriptableObject
 
     [SerializeField] private WeaponAnimationSet animations;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip attackSound;
     public string WeaponName => weaponName;
 
     public Sprite Icon => icon;
@@ -31,4 +33,7 @@ public abstract class WeaponData : ScriptableObject
     public bool IsRanged => this is RangedWeaponData;
 
     public WeaponAnimationSet Animations => animations;
+
+    //Agregador por Diego
+    public AudioClip AttackSound => attackSound;
 }

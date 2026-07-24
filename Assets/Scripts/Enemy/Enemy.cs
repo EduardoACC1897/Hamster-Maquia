@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(BoxCollider2D))]
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDamageable
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [Header("Estadisticas base del enemigo")]
@@ -14,6 +14,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected float bufferRadius = 0.5f;
     [SerializeField] protected float detectionRadius = 4f;
     [SerializeField] protected LayerMask playerLayer;
+
+    [Header("Drop de Esencia")]
+    [Tooltip("prefab de la esencia que se droppea al morir")]
+    [SerializeField] protected GameObject essencePrefab;
 
     protected Rigidbody2D rb;
     protected Transform playerTransform;
@@ -79,9 +83,26 @@ public class Enemy : MonoBehaviour
 
     protected virtual void Die()
     {
+        Collider2D[] colliders = GetComponentsInChildren<Collider2D>();
+        foreach (Collider2D col in colliders)
+        {
+            col.enabled = false;
+        }
+        DropEssence();
         Destroy(gameObject);
     }
 
+    protected virtual void DropEssence()
+    {
+        if (essencePrefab != null)
+        {
+            Instantiate(essencePrefab, transform.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.LogWarning($"{gameObject.name} no tiene un prefab de esencia asignado.");
+        }
+    }
     protected virtual void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

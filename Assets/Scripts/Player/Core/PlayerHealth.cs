@@ -134,6 +134,8 @@ public class PlayerHealth : MonoBehaviour
 
         StartInvulnerability();
 
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.sonidoGolpeJugador);
+
         //Agregado Por Diego
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }

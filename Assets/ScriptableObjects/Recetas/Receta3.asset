@@ -15,8 +15,8 @@ MonoBehaviour:
   recipeName: Batido de Bayas
   recipeIcon: {fileID: -685182747019620134, guid: 64a97ec5e1aa46541a22fe88faa382ad, type: 3}
   tipoReceta: 0
-  redEssenceCost: 7
-  greenEssenceCost: 7
-  blueEssenceCost: 7
+  redEssenceCost: 5
+  greenEssenceCost: 2
+  blueEssenceCost: 8
   weaponToUnlock: {fileID: 11400000, guid: 4a11d26c74d71714ab56b5ddaa204002, type: 2}
   healingAmount: 0

@@ -105,6 +105,11 @@ public class AttackAbility : PlayerAbility
     {
         MeleeWeaponData weapon =
             weaponManager.CurrentMeleeWeapon;
+        //Agregador por Diego
+        if (AudioManager.Instance != null && weapon != null)
+        {
+            AudioManager.Instance.PlaySFX(weapon.AttackSound);
+        }
 
         bool isAirAttack =
             !controller.IsGrounded;
@@ -119,6 +124,7 @@ public class AttackAbility : PlayerAbility
         {
             HandleGroundLunge(weapon);
         }
+    
 
         float timer = 0f;
 
@@ -156,6 +162,7 @@ public class AttackAbility : PlayerAbility
 
         if (hitSomething)
         {
+          
             weaponManager.ConsumeOneUse();
         }
     }
@@ -163,6 +170,8 @@ public class AttackAbility : PlayerAbility
     private IEnumerator PerformRangedAttack()
     {
         RangedWeaponData weapon = weaponManager.CurrentRangedWeapon;
+
+        AudioManager.Instance.PlaySFX(weapon.AttackSound);
 
         bool isAirAttack = !controller.IsGrounded;
 
