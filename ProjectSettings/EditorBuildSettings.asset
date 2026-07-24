@@ -14,5 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 8b545c8c2cadad54f99734ac43990a72
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d657046091eebef43854758c01ce9fb9
+  - enabled: 1
+    path: Assets/Scenes/ComicScene1.unity
+    guid: 7fea692a9c9104b48b7ce459d84c4f41
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 227fbf805de492d42b43bcfd92320773
+  - enabled: 1
+    path: Assets/Scenes/Nivel1.unity
+    guid: cd563963d224ab344ba90d051a7ef712
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
