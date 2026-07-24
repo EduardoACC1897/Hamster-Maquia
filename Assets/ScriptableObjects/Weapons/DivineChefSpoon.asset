@@ -18,10 +18,61 @@ MonoBehaviour:
   airAttackAnimation: AirAttack_Spoon
   infiniteUses: 1
   maxUses: 0
+  animations:
+    groundAnimations:
+    - Frames:
+      - {fileID: 9045248419653020940, guid: 20be87a635463a045b3e7e9ce5a46d22, type: 3}
+      - {fileID: 5399320637467601645, guid: 20be87a635463a045b3e7e9ce5a46d22, type: 3}
+      - {fileID: -7862810379562887420, guid: 20be87a635463a045b3e7e9ce5a46d22, type: 3}
+      - {fileID: 6231856036840743408, guid: 20be87a635463a045b3e7e9ce5a46d22, type: 3}
+      FPS: 16
+    - Frames:
+      - {fileID: 7821416235890669795, guid: 5cdf5b28b1a389146b53e02e06fd38ad, type: 3}
+      - {fileID: 8012596585770161633, guid: 5cdf5b28b1a389146b53e02e06fd38ad, type: 3}
+      - {fileID: 9007118669739778411, guid: 5cdf5b28b1a389146b53e02e06fd38ad, type: 3}
+      - {fileID: 9023749597501406961, guid: 5cdf5b28b1a389146b53e02e06fd38ad, type: 3}
+      FPS: 16
+    - Frames:
+      - {fileID: 5936984067997642205, guid: d22dd7e736434714986ad46023260d01, type: 3}
+      - {fileID: 1354062245410758953, guid: d22dd7e736434714986ad46023260d01, type: 3}
+      - {fileID: -3317941510142543553, guid: d22dd7e736434714986ad46023260d01, type: 3}
+      - {fileID: 9065947686246226159, guid: d22dd7e736434714986ad46023260d01, type: 3}
+      FPS: 16
+    airAnimations:
+    - Frames:
+      - {fileID: -6299172087637938246, guid: ea06d6c9ca6f39b4c936d4eec228292e, type: 3}
+      - {fileID: 4342572607671334706, guid: ea06d6c9ca6f39b4c936d4eec228292e, type: 3}
+      - {fileID: -3579546649108282229, guid: ea06d6c9ca6f39b4c936d4eec228292e, type: 3}
+      - {fileID: -392296202893303879, guid: ea06d6c9ca6f39b4c936d4eec228292e, type: 3}
+      - {fileID: -949286513958081099, guid: ea06d6c9ca6f39b4c936d4eec228292e, type: 3}
+      - {fileID: 8729777718286411831, guid: ea06d6c9ca6f39b4c936d4eec228292e, type: 3}
+      - {fileID: 1008963614868894060, guid: ea06d6c9ca6f39b4c936d4eec228292e, type: 3}
+      - {fileID: 5327424650859613857, guid: ea06d6c9ca6f39b4c936d4eec228292e, type: 3}
+      FPS: 28
+    - Frames:
+      - {fileID: -8890583844866671054, guid: e28341d604b17e140b52d858518da2f3, type: 3}
+      - {fileID: 8860436850393635451, guid: e28341d604b17e140b52d858518da2f3, type: 3}
+      - {fileID: 6185474180947746914, guid: e28341d604b17e140b52d858518da2f3, type: 3}
+      - {fileID: 7396427512690645042, guid: e28341d604b17e140b52d858518da2f3, type: 3}
+      - {fileID: 4376461812843491040, guid: e28341d604b17e140b52d858518da2f3, type: 3}
+      - {fileID: 6350710898303339723, guid: e28341d604b17e140b52d858518da2f3, type: 3}
+      - {fileID: -8620558142008869526, guid: e28341d604b17e140b52d858518da2f3, type: 3}
+      - {fileID: -7420794613866190594, guid: e28341d604b17e140b52d858518da2f3, type: 3}
+      FPS: 28
+    - Frames:
+      - {fileID: 6225612250354410239, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
+      - {fileID: -245031243410864152, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
+      - {fileID: 3333716180988189646, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
+      - {fileID: -2572320819467072693, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
+      - {fileID: 3759763634597255765, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
+      - {fileID: 2535851067140319275, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
+      - {fileID: -3505772974582730762, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
+      - {fileID: 2072153873004166235, guid: 70b4bbb6b60893c4499f5da5c643cd46, type: 3}
+      FPS: 28
   attackDuration: 0.3
   attackCooldown: 0.2
   hitboxActiveTime: 0.2
-  attackRange: 0.8
+  attackRange: 0.4
   lungeForce: 8
   attackFriction: 0.9
   airAttackRange: 1.6

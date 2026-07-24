@@ -18,7 +18,41 @@ MonoBehaviour:
   airAttackAnimation: AirAttack_Pepper
   infiniteUses: 0
   maxUses: 20
-  attackDuration: 0.2
-  attackCooldown: 0.15
+  animations:
+    groundAnimations:
+    - Frames:
+      - {fileID: 7380299951259408171, guid: 43ca8888bebdd1449b852972871149f5, type: 3}
+      - {fileID: 8214597955814197393, guid: 43ca8888bebdd1449b852972871149f5, type: 3}
+      - {fileID: 7489513086515047893, guid: 43ca8888bebdd1449b852972871149f5, type: 3}
+      FPS: 8
+    - Frames:
+      - {fileID: 2271463332073609053, guid: bd31cd80c9421de44b4a61c378d06155, type: 3}
+      - {fileID: -181354548580388204, guid: bd31cd80c9421de44b4a61c378d06155, type: 3}
+      - {fileID: -6650367912968816420, guid: bd31cd80c9421de44b4a61c378d06155, type: 3}
+      FPS: 8
+    - Frames:
+      - {fileID: 9183250765100491480, guid: 3ed1d6b5d650f8f41b2e72f956229b5c, type: 3}
+      - {fileID: -4866405037142579034, guid: 3ed1d6b5d650f8f41b2e72f956229b5c, type: 3}
+      - {fileID: 6480879305109646229, guid: 3ed1d6b5d650f8f41b2e72f956229b5c, type: 3}
+      FPS: 8
+    airAnimations:
+    - Frames:
+      - {fileID: 7380299951259408171, guid: 43ca8888bebdd1449b852972871149f5, type: 3}
+      - {fileID: 8214597955814197393, guid: 43ca8888bebdd1449b852972871149f5, type: 3}
+      - {fileID: 7489513086515047893, guid: 43ca8888bebdd1449b852972871149f5, type: 3}
+      FPS: 8
+    - Frames:
+      - {fileID: 2271463332073609053, guid: bd31cd80c9421de44b4a61c378d06155, type: 3}
+      - {fileID: -181354548580388204, guid: bd31cd80c9421de44b4a61c378d06155, type: 3}
+      - {fileID: -6650367912968816420, guid: bd31cd80c9421de44b4a61c378d06155, type: 3}
+      FPS: 8
+    - Frames:
+      - {fileID: 9183250765100491480, guid: 3ed1d6b5d650f8f41b2e72f956229b5c, type: 3}
+      - {fileID: -4866405037142579034, guid: 3ed1d6b5d650f8f41b2e72f956229b5c, type: 3}
+      - {fileID: 6480879305109646229, guid: 3ed1d6b5d650f8f41b2e72f956229b5c, type: 3}
+      FPS: 8
+  attackDuration: 0.4
+  attackCooldown: 0.3
   projectilePrefab: {fileID: 8073215236059577323, guid: 18edce664de110546918082e8a2f271c, type: 3}
   floatWhileAttacking: 1
+  lockMovementInAir: 1

@@ -8,23 +8,19 @@ public abstract class WeaponData : ScriptableObject
 
     [SerializeField] private Sprite icon;
 
-    [SerializeField] private string groundAttackAnimation = "Attack";
-
-    [SerializeField] private string airAttackAnimation = "AirAttack";
-
     [Header("Uses")]
 
     [SerializeField] private bool infiniteUses = true;
 
     [SerializeField] private int maxUses = 0;
 
+    [Header("Animation")]
+
+    [SerializeField] private WeaponAnimationSet animations;
+
     public string WeaponName => weaponName;
 
     public Sprite Icon => icon;
-
-    public string GroundAttackAnimation => groundAttackAnimation;
-
-    public string AirAttackAnimation => airAttackAnimation;
 
     public bool InfiniteUses => infiniteUses;
 
@@ -33,4 +29,6 @@ public abstract class WeaponData : ScriptableObject
     public bool IsMelee => this is MeleeWeaponData;
 
     public bool IsRanged => this is RangedWeaponData;
+
+    public WeaponAnimationSet Animations => animations;
 }

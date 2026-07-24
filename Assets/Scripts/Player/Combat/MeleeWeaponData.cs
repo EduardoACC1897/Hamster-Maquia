@@ -15,7 +15,7 @@ public class MeleeWeaponData : WeaponData
 
     [Header("Ground Attack")]
 
-    [SerializeField] private float attackRange = 0.8f;
+    [SerializeField] private float attackRange = 0.4f;
 
     [SerializeField] private float lungeForce = 8f;
 

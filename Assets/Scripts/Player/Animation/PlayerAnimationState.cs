@@ -7,5 +7,6 @@ public enum PlayerAnimationState
     JumpDown,
     Crouch,
     Attack,
-    AirAttack
+    AirAttack,
+    Dead
 }

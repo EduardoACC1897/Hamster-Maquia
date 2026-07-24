@@ -103,9 +103,11 @@ public class AttackAbility : PlayerAbility
 
     private IEnumerator PerformMeleeAttack()
     {
-        MeleeWeaponData weapon = weaponManager.CurrentMeleeWeapon;
+        MeleeWeaponData weapon =
+            weaponManager.CurrentMeleeWeapon;
 
-        bool isAirAttack = !controller.IsGrounded;
+        bool isAirAttack =
+            !controller.IsGrounded;
 
         if (isAirAttack &&
             weapon.SingleAirHitPerJump)
@@ -120,21 +122,41 @@ public class AttackAbility : PlayerAbility
 
         float timer = 0f;
 
+        bool hitSomething = false;
+
         while (timer < weapon.HitboxActiveTime)
         {
-            if (CheckMeleeHit(isAirAttack, weapon))
+            if (isAirAttack &&
+                controller.IsGrounded)
+            {
+                break;
+            }
+
+            hitSomething =
+                CheckMeleeHit(
+                    isAirAttack,
+                    weapon);
+
+            if (hitSomething)
             {
                 break;
             }
 
             timer += Time.deltaTime;
+
             yield return null;
         }
 
         if (timer < weapon.AttackDuration)
         {
-            yield return new WaitForSeconds(
-                weapon.AttackDuration - timer);
+            yield return WaitAttackDuration(
+                weapon.AttackDuration - timer,
+                isAirAttack);
+        }
+
+        if (hitSomething)
+        {
+            weaponManager.ConsumeOneUse();
         }
     }
 
@@ -169,10 +191,11 @@ public class AttackAbility : PlayerAbility
             }
         }
 
-        weaponManager.ConsumeOneUse();
+        yield return WaitAttackDuration(
+            weapon.AttackDuration,
+            isAirAttack);
 
-        yield return new WaitForSeconds(
-            weapon.AttackDuration);
+        weaponManager.ConsumeOneUse();
 
         if (isAirAttack &&
             weapon.FloatWhileAttacking)
@@ -250,11 +273,6 @@ public class AttackAbility : PlayerAbility
                     weapon.AirBounceForce));
         }
 
-        if (hitSomething)
-        {
-            weaponManager.ConsumeOneUse();
-        }
-
         return hitSomething;
     }
 
@@ -274,6 +292,26 @@ public class AttackAbility : PlayerAbility
         return weaponManager
             .CurrentRangedWeapon
             .AttackCooldown;
+    }
+
+    private IEnumerator WaitAttackDuration(
+    float duration,
+    bool isAirAttack)
+    {
+        float timer = 0f;
+
+        while (timer < duration)
+        {
+            if (isAirAttack &&
+                controller.IsGrounded)
+            {
+                yield break;
+            }
+
+            timer += Time.deltaTime;
+
+            yield return null;
+        }
     }
 
     #endregion
