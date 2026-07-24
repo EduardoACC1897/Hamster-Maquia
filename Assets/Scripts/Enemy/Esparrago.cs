@@ -47,10 +47,10 @@ public class Esparrago : Enemy
     {
         base.OnPlayerDetected();
 
-        if(bodyAnimator != null)
+        /*if(bodyAnimator != null)
         {
             bodyAnimator.SetBool("Emerging", true);
-        }
+        }*/
 
         if (playerTransform == null || !canAttack) return;
 
@@ -82,10 +82,10 @@ public class Esparrago : Enemy
     {
         base.OnPlayerLost();
 
-        if (bodyAnimator != null)
+        /*if (bodyAnimator != null)
         {
             bodyAnimator.SetBool("Emerging", false);
-        }          
+        } */         
         
     }
 
