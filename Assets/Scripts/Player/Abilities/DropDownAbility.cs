@@ -13,19 +13,10 @@ public class DropDownAbility : PlayerAbility
 
     #endregion
 
-    #region State
-
-    private bool isDropping;
-
-    #endregion
-
     #region Custom Update
 
     public override void OnCustomUpdate()
     {
-        if (isDropping)
-            return;
-
         if (!controller.IsGrounded)
             return;
 

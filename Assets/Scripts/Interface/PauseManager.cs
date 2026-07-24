@@ -19,6 +19,9 @@ public class PauseManager : MonoBehaviour
     private bool juegoPausado = false;
 
     public static PauseManager Instance { get; private set; }
+    public bool JuegoPausado => juegoPausado;
+
+    public bool IgnoreTimeScale { get; set; }
 
     //barras de esencia cambian el archivo png
     public delegate void OnColorblindChanged(bool active);
@@ -99,17 +102,27 @@ public class PauseManager : MonoBehaviour
     public void Pausar()
     {
         juegoPausado = true;
+
         panelPausa.SetActive(true);
         panelConfiguraciones.SetActive(false);
-        Time.timeScale = 0f;
+
+        if (!IgnoreTimeScale)
+        {
+            Time.timeScale = 0f;
+        }
     }
 
     public void Reanudar()
     {
         juegoPausado = false;
+
         panelPausa.SetActive(false);
         panelConfiguraciones.SetActive(false);
-        Time.timeScale = 1f;
+
+        if (!IgnoreTimeScale)
+        {
+            Time.timeScale = 1f;
+        }
     }
 
     public void AbrirConfiguraciones()

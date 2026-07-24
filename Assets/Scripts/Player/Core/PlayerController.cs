@@ -57,6 +57,8 @@ public class PlayerController : MonoBehaviour
 
     public int FacingDirection { get; private set; } = 1;
 
+    private Vector2 platformMovement;
+
     #endregion
 
     #region Public Properties
@@ -119,6 +121,8 @@ public class PlayerController : MonoBehaviour
         {
             abilities[i].OnCustomFixedUpdate();
         }
+
+        ApplyPlatformMovement();
 
         ApplyGravity();
 
@@ -223,6 +227,25 @@ public class PlayerController : MonoBehaviour
         scale.x = Mathf.Abs(scale.x) * FacingDirection;
 
         transform.localScale = scale;
+    }
+
+    public void SetPlatformMovement(
+    Vector2 movement)
+    {
+        platformMovement = movement;
+    }
+
+    private void ApplyPlatformMovement()
+    {
+        if (platformMovement == Vector2.zero)
+            return;
+
+
+        TargetVelocity += platformMovement /
+            Time.fixedDeltaTime;
+
+
+        platformMovement = Vector2.zero;
     }
 
     #endregion
