@@ -18,10 +18,24 @@ public class PauseManager : MonoBehaviour
 
     private bool juegoPausado = false;
 
+    public static PauseManager Instance { get; private set; }
+
     //barras de esencia cambian el archivo png
     public delegate void OnColorblindChanged(bool active);
     public static event OnColorblindChanged ColorblindChanged;
 
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+            return;
+        }
+    }
     void Start()
     {
         panelPausa.SetActive(false);
@@ -36,6 +50,7 @@ public class PauseManager : MonoBehaviour
         //estado daltonito
         bool daltonismoActivo = PlayerPrefs.GetInt("Daltonismo", 0) == 1;
         daltonismo.isOn = daltonismoActivo;
+        daltonismo.onValueChanged.AddListener(CambiarModoDaltonismo);
 
     }
 

@@ -74,7 +74,7 @@ public class CookingManager : MonoBehaviour
 
         if(recipe.tipoReceta == RecipeType.Curacion && playerHealth != null)
         {
-            if(playerHealth.CurrentHealth >= playerHealth.MaxHealth)
+            if(playerHealth.CurrentLives >= playerHealth.StartingLives)
             {
                 Debug.Log("No puedes curarte, tu salud ya esta al maximo.");
                 return;
@@ -98,7 +98,7 @@ public class CookingManager : MonoBehaviour
                 if (playerHealth != null)
                 {
                     //curar 1 punto
-                    playerHealth.Heal(recipe.healingAmount);
+                    playerHealth.AddLife(1);
 
                     //activa efecto visual
                     PlayerAnimation playerAnimation = playerHealth.GetComponent<PlayerAnimation>();
@@ -133,14 +133,5 @@ public class CookingManager : MonoBehaviour
         {
             Debug.Log("No tienes suficiente esencia para cocinar esta receta.");
         }
-    }
-    //no sirve esta wea, pero podria servir juasjuasj
-    private void DesbloquearNuevaArma(WeaponData nuevaArma)
-    {
-        if (nuevaArma == null) return;
-
-        WeaponManager weaponManager = FindAnyObjectByType<WeaponManager>();
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
+    } 
 }

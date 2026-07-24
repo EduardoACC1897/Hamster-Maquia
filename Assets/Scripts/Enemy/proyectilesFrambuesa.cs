@@ -8,7 +8,7 @@ public class proyectilesFrambuesa : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     [SerializeField] private float velocidad = 8f;
-    [SerializeField] private int damage = 1;
+    //[SerializeField] private int damage = 1;
     [SerializeField] private float tiempodeVida = 5f;
 
     private Rigidbody2D rb;

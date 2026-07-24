@@ -79,6 +79,7 @@ public class CookingSlotiUI : MonoBehaviour
         if (costo <= 0)
         {
             if (fila != null) fila.SetActive(false);
+            if(txtCosto != null) txtCosto.text = "0";
             return;
         }
 

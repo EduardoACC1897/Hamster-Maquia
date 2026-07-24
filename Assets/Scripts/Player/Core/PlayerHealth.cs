@@ -66,6 +66,8 @@ public class PlayerHealth : MonoBehaviour
 
     public int CurrentLives => currentLives;
 
+    public int StartingLives => startingLives;
+
     public bool IsDead => isDead;
 
     public bool IsInvulnerable => isInvulnerable;
@@ -148,6 +150,18 @@ public class PlayerHealth : MonoBehaviour
         
         //Agregado Por Diego
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
+    }
+
+    public void AddLife(int cantidad = 1)
+    {
+        currentLives = Mathf.Min(currentLives + cantidad, startingLives);
+
+        if (PlayerDataManager.Instance != null)
+        {
+            PlayerDataManager.Instance.SetLives(
+                currentLives);
+        }
+        OnLivesChanged?.Invoke(currentLives);
     }
 
     #endregion
