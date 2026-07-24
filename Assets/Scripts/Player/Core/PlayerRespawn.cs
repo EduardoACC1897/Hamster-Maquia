@@ -1,13 +1,21 @@
 using UnityEngine;
+using System.Collections;
+using Unity.Cinemachine;
 
 public class PlayerRespawn : MonoBehaviour
 {
     #region References
 
     [SerializeField]
-    private Transform initialSpawnPoint;
+    private Transform SpawnPoint;
+
+    [SerializeField]
+    private CinemachineCamera virtualCamera;
 
     private PlayerController controller;
+
+    [SerializeField]
+    private ScreenTransition transition;
 
     #endregion
 
@@ -23,10 +31,10 @@ public class PlayerRespawn : MonoBehaviour
     {
         controller = GetComponent<PlayerController>();
 
-        if (initialSpawnPoint != null)
+        if (SpawnPoint != null)
         {
             currentRespawnPoint =
-                initialSpawnPoint;
+                SpawnPoint;
         }
         else
         {
@@ -47,8 +55,23 @@ public class PlayerRespawn : MonoBehaviour
 
     public void Respawn()
     {
-        if (currentRespawnPoint == null)
-            return;
+        StartCoroutine(
+            RespawnRoutine());
+    }
+
+    #endregion
+
+    #region Coroutines
+
+    private IEnumerator RespawnRoutine()
+    {
+        if (transition != null)
+        {
+            yield return transition.FadeOut();
+        }
+
+        Vector3 previousPosition =
+            transform.position;
 
         Vector3 position =
             currentRespawnPoint.position;
@@ -56,10 +79,25 @@ public class PlayerRespawn : MonoBehaviour
         position.z =
             transform.position.z;
 
-        transform.position = position;
+        transform.position =
+            position;
 
         controller.ApplyImpulse(
             Vector2.zero);
+
+        if (virtualCamera != null)
+        {
+            virtualCamera.OnTargetObjectWarped(
+                transform,
+                position - previousPosition);
+        }
+
+        yield return null;
+
+        if (transition != null)
+        {
+            yield return transition.FadeIn();
+        }
     }
 
     #endregion
