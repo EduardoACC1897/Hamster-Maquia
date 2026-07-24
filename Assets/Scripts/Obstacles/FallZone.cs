@@ -7,6 +7,9 @@ public class FallZone : MonoBehaviour
     [SerializeField]
     private float respawnDelay = 1f;
 
+    [SerializeField]
+    private ScreenTransition transition;
+
     private bool respawning;
 
     private void Awake()
@@ -50,6 +53,11 @@ public class FallZone : MonoBehaviour
 
         yield return new WaitForSeconds(
             respawnDelay);
+
+        if (transition != null)
+        {
+            yield return transition.FadeOut();
+        }
 
         respawn.Respawn();
 
