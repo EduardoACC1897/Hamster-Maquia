@@ -65,11 +65,6 @@ public class PlayerRespawn : MonoBehaviour
 
     private IEnumerator RespawnRoutine()
     {
-        if (transition != null)
-        {
-            yield return transition.FadeOut();
-        }
-
         Vector3 previousPosition =
             transform.position;
 
@@ -82,8 +77,7 @@ public class PlayerRespawn : MonoBehaviour
         transform.position =
             position;
 
-        controller.ApplyImpulse(
-            Vector2.zero);
+        controller.ApplyImpulse(Vector2.zero);
 
         if (virtualCamera != null)
         {

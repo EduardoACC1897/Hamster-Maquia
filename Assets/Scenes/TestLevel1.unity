@@ -1914,7 +1914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1573634129
 Transform:
   m_ObjectHideFlags: 0
@@ -2657,6 +2657,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 193852089553128716, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 944687968}
+    - target: {fileID: 770278210022169742, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
+      propertyPath: 'deadAnimations.Array.data[0].Frames.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 4fc3aec29b03c11459f69b67133ea4af, type: 3}
+    - target: {fileID: 770278210022169742, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
+      propertyPath: 'deadAnimations.Array.data[1].Frames.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 4fc3aec29b03c11459f69b67133ea4af, type: 3}
+    - target: {fileID: 770278210022169742, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
+      propertyPath: 'deadAnimations.Array.data[2].Frames.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 4fc3aec29b03c11459f69b67133ea4af, type: 3}
     - target: {fileID: 1033761352458118282, guid: daf78d82f4d535746b7705db913a2a23, type: 3}
       propertyPath: SpawnPoint
       value: 

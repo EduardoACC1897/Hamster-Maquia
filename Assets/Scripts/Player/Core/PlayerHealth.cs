@@ -260,9 +260,9 @@ public class PlayerHealth : MonoBehaviour
         {
             RestoreHealth();
 
-            controller.Collider.enabled = true;
-
             respawn.Respawn();
+
+            controller.Collider.enabled = true;
 
             controller.Rigidbody2D.simulated = true;
 
