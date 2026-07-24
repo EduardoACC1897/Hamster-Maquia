@@ -27,14 +27,14 @@ public class Esparrago : Enemy
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
 
-        if(bodyAnimator == null)
+        /*if(bodyAnimator == null)
         {
             bodyAnimator = GetComponentInChildren<Animator>();
             if(bodyAnimator == null )
             {
                 Debug.LogError("Animator no asignado en el inspector ni encontrado en los hijos del objeto.");
             }
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -85,7 +85,7 @@ public class Esparrago : Enemy
         /*if (bodyAnimator != null)
         {
             bodyAnimator.SetBool("Emerging", false);
-        } */         
+        }*/
         
     }
 
