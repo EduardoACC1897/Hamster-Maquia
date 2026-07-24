@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5c581dcf7480e9c449351bfa0a7e9901
+guid: 0d241e4893bffe64a848c5a72ee7585d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5852601212058307655
-    second: Hamster-Maquia_002_0
+      213: -2433751755662205217
+    second: Boton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,11 +48,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 13, y: 17, z: 13, w: 11}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hamster-Maquia_002_0
+      name: Boton_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2039
-        height: 2894
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74c81c04bcd983150800000000000000
-      internalID: 5852601212058307655
+      spriteID: fde554c3ca3993ed0800000000000000
+      internalID: -2433751755662205217
       vertices: []
       indices: 
       edges: []
@@ -139,7 +139,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hamster-Maquia_002_0: 5852601212058307655
+      Boton_0: -2433751755662205217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
