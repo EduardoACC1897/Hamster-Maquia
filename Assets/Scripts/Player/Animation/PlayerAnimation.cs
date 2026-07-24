@@ -11,6 +11,9 @@ public class PlayerAnimation : MonoBehaviour
     [SerializeField]
     private Transform visual;
 
+    [SerializeField]
+    private ScreenTransition transition;
+
     #endregion
 
     #region Death Animation
@@ -125,10 +128,14 @@ public class PlayerAnimation : MonoBehaviour
 
         yield return deathSequence.WaitForCompletion();
 
+        if (transition != null)
+        {
+            yield return transition.FadeOut();
+        }
+
         if (restorePosition)
         {
-            visual.localPosition =
-                startPosition;
+            visual.localPosition = startPosition;
         }
     }
 

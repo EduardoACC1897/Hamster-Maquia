@@ -25,32 +25,35 @@ public class FallZone : MonoBehaviour
         PlayerRespawn respawn =
             other.GetComponent<PlayerRespawn>();
 
-        PlayerInputHandler input =
-            other.GetComponent<PlayerInputHandler>();
+        PlayerController controller =
+            other.GetComponent<PlayerController>();
 
-        if (respawn == null)
+        if (respawn == null ||
+            controller == null)
+        {
             return;
+        }
 
         StartCoroutine(
             RespawnRoutine(
                 respawn,
-                input));
+                controller));
     }
 
     private IEnumerator RespawnRoutine(
-        PlayerRespawn respawn,
-        PlayerInputHandler input)
+    PlayerRespawn respawn,
+    PlayerController controller)
     {
         respawning = true;
 
-        input?.SetInputEnabled(false);
+        controller.IsDead = true;
 
         yield return new WaitForSeconds(
             respawnDelay);
 
         respawn.Respawn();
 
-        input?.SetInputEnabled(true);
+        controller.IsDead = false;
 
         respawning = false;
     }
